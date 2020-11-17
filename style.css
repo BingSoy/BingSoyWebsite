@@ -1,7 +1,83 @@
+/*
+F7DC4F y
+14101C b d
+171324 b l
+*/
+
 h1 {
   text-align: center;
+  color: white;
+  font-family:  "Arial Black", sans-serif
+}
+
+
+body {
+  background-color: #252525;
+  color: white;
 }
 
 p {
   text-align: center;
+  font-family: "Calibri"
 }
+
+#titlename {
+  font-size: 100px;
+} 
+
+.nav {
+  overflow: hidden;
+  background-color: #444;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #444;    
+    
+  border-style: solid;
+  border-color: white;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+ /* unvisited link */
+a:link {
+  color: #F7DC4F;
+}
+
+/* visited link */
+a:visited {
+  color: #FFA947;
+}
+
+/* mouse over link */
+a:hover {
+  color: #EDB218;
+}
+
+/* selected link */
+a:active {
+  color: #FFF7B7;
+} 
