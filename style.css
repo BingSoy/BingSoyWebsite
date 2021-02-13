@@ -6,12 +6,13 @@ F7DC4F y
 
 h1 {
   text-align: center;
+  /*font-size: 50px;*/
   color: white;
   font-family:  "Arial Black", sans-serif
 }
 
 
-body {
+body, footer {
   background-color: #252525;
   color: white;
 }
@@ -21,8 +22,12 @@ p {
   font-family: "Calibri"
 }
 
+.bodytxtpad {
+  padding: 2.5vw;
+}
+
 #titlename {
-  font-size: 100px;
+  font-size: 7vw;
 } 
 
 .nav {
@@ -38,13 +43,18 @@ p {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.3vh 1.5vw;
   text-decoration: none;
   font-size: 17px;
-  background-color: #444;    
+  background-color: #444;
+  font-size: 2vw;
     
   border-style: solid;
   border-color: white;
+}
+
+.topnav a:visited {
+  color: #F7DC4F;
 }
 
 .topnav a:hover {
