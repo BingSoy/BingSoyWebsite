@@ -17,10 +17,14 @@ body, footer {
   color: white;
 }
 
+footer {
+    text-align: center;
+}
+
 .bodydiv {
     background-color: #212121;
     margin: 0 auto;
-    width:60vw;
+    width:60%;
 }
 
 @media screen and (max-width: 1440px) {
@@ -32,27 +36,60 @@ body, footer {
     {width:100%;}
 }
 
-img {
+.border {
   border-style: solid;
   border-color: #fff;
- border-width:3px;
-    background-color: #fff;
+  border-width:3px;
+  background-color: #fff;
 }
 
-.centerImg{
+
+.colshift {
+  position: relative;
+  animation: mymove 20s infinite;
+  animation-timing-function: linear;
+}
+.grayscale {
+  position: relative;
+  animation: mymove2 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function:cubic-bezier(1, 0.1, 0.5, 1);
+}
+
+@keyframes mymove {
+from {filter: hue-rotate(0deg);}
+  to {filter: hue-rotate(360deg);}
+}
+
+@keyframes mymove2 {
+from {filter: grayscale(100%);}
+  to {filter: grayscale(0%);}
+}
+
+
+
+
+.center{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  /*width: 50%;*/
 }
 
-p {
+.centertxt{
   text-align: center;
+}
+
+
+p {
   font-family: "Calibri"
 }
 
-.bodytxtpad {
-  padding: 2.5vw;
+.ptext {    
+  padding-top:5px;
+  padding-right:3.8vw;
+  padding-bottom:5px;
+  padding-left:3.8vw;
 }
 
 #titlename {
