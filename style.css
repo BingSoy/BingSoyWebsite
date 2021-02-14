@@ -1,4 +1,5 @@
 /*
+site colors
 F7DC4F y
 14101C b d
 171324 b l
@@ -6,7 +7,7 @@ F7DC4F y
 
 h1 {
   text-align: center;
-  /*font-size: 50px;*/
+  /*font-size: 50em;*/
   color: white;
   font-family:  "Arial Black", sans-serif
 }
@@ -22,10 +23,15 @@ body, footer {
     width:60vw;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1440px) {
+  .bodydiv
+    {width:80%;}
+}
+@media screen and (max-width: 800px) {
   .bodydiv
     {width:100%;}
 }
+
 
 
 p {
@@ -38,7 +44,7 @@ p {
 }
 
 #titlename {
-  font-size: 7vw;
+  font-size: 4em;
 } 
 
 
@@ -67,18 +73,17 @@ a:active {
     list-style:none;
     margin:0;
     padding:0;
-    font-size:2.3em;
+    font-size:1.8em;
     text-align:center;
-    background-color: #252f13;
-    /*overflow: hidden;*/
+    background-color: #333333;
+    overflow: hidden;
 }
-.cnav li{
-    display:inline;    
-}
-.cnav a{
+
+.cnav a {
     display:inline-block;
     padding:10px;
     text-decoration: none;
+    font-family:  "Arial Black", sans-serif
 }
 
 .cnav a:hover {
@@ -95,18 +100,15 @@ a:active {
   display: none;
 }
 
-@media screen and (max-width: 700px) {
-    /*
+@media screen and (max-width: 550px) {
   .cnav a:not(:first-child) {display: none;}
-  .cnav ul:not(:first-child) {display: none;}*/
-  .cnav li:not(:first-child) {display: none;}
   .cnav a.icon {
     float: right;
     display: block;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
   .cnav.responsive {position: relative;}
   .cnav.responsive .icon {
     position: absolute;
@@ -118,4 +120,19 @@ a:active {
     display: block;
     text-align: left;
   }
+  #act {
+    text-align: left;
+    position: absolute;
+    left:9px;
+  }
 }
+/*
+.cnav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-size:1.8em;
+    text-align:center;
+    background-color: #333333;
+    overflow: hidden;
+}*/
