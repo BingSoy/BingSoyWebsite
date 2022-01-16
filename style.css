@@ -197,72 +197,125 @@ a:active {
 
 .bss {
     background: url("images/spr_bingsoy.png") no-repeat;
-    width: 32px;
-    height: 32px;
+    width: 96px;
+    height: 96px;
     display: inline-block;
      /* Firefox */
     image-rendering: crisp-edges;
     /* Chromium + Safari */
     image-rendering: pixelated;
+    /*transform: scale(2);*/
 }
+
+
     
 .bss_1-1 {
     background-position: -0px -0px;
 }
 .bss_1-1:hover {
-    background-position: -32px -0px;
-}
-/**/
-.bss_1-2 {
-    background-position: -64px -0px;
-}
-.bss_1-2:hover {
     background-position: -96px -0px;
 }
 /**/
+.bss_1-2 {
+    background-position: -192px -0px;
+}
+.bss_1-2:hover {
+    background-position: -288px -0px;
+}
+/**/
 .bss_1-3 {
-    background-position: -128px -0px;
+    background-position: -384px -0px;
 }
 .bss_1-3:hover {
-    background-position: -160px -0px;
+    background-position: -480px -0px;
 }
 /**/
 .bss_1-4 {
-    background-position: -192px -0px;
+    background-position: -576px -0px;
 }
 .bss_1-4:hover {
-    background-position: -224px -0px;
+    background-position: -672px -0px;
 }
 
+.bss_1-5 {
+    background-position: -768px -0px;
+}
+.bss_1-5:hover {
+    background-position: -864px -0px;
+}
 
 .bss_2-1 {
-    background-position: -0px -32px;
+    background-position: -0px -96px;
 }
 .bss_2-1:hover {
-    background-position: -32px -32px;
+    background-position: -96px -96px;
 }
 /**/
 .bss_2-2 {
-    background-position: -64px -32px;
+    background-position: -192px -96px;
 }
 .bss_2-2:hover {
-    background-position: -96px -32px;
+    background-position: -288px -96px;
+}
+.bss_2-3 {
+    background-position: -384px -96px;
+}
+.bss_2-3:hover {
+    background-position: -480px -96px;
+}
+/**/
+.bss_2-4 {
+    background-position: -576px -96px;
+}
+.bss_2-4:hover {
+    background-position: -672px -96px;
+}
+.bss_2-5 {
+    background-position: -768px -96px;
+}
+.bss_2-5:hover {
+    background-position: -864px -96px;
 }
 
 .bss_3-1 {
-    background-position: -0px -64px;
+    background-position: -0px -192px;
 }
 .bss_3-1:hover {
-    background-position: -32px -64px;
+    background-position: -96px -192px;
 }
 /**/
 .bss_3-2 {
-    background-position: -64px -64px;
+    background-position: -192px -192px;
 }
 .bss_3-2:hover {
-    background-position: -96px -64px;
+    background-position: -288px -192px;
 }
 
 .linknodec {
     text-decoration: none;
+}
+
+ul.nav {
+  padding-left: 0px;
+  text-align: center;
+}
+ul.nav > li {
+  display: inline-block;
+  padding: 10px 0px;
+}
+ul.nav > li:hover {
+}
+
+@media only screen and (min-width: 1000px) {
+    /*.bss {
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+    ul.nav > li {
+      display: inline-block;
+      padding: 30px 40px;
+    }*/
 }
