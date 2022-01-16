@@ -67,7 +67,21 @@ from {filter: grayscale(100%);}
 }
 
 
+table {
+    background-color: #111;
+}
 
+table, th, td {
+    border: 1px solid #999;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: "Calibri"
+}
+
+tr:nth-child(even) {
+  background-color: #222;
+}
 
 .center{
   display: block;
@@ -78,6 +92,10 @@ from {filter: grayscale(100%);}
 
 .centertxt{
   text-align: center;
+}
+
+ul {
+    margin-left:7%;
 }
 
 
@@ -150,7 +168,7 @@ a:active {
 .cnav .icon {
   display: none;
 }
-
+/*
 @media screen and (max-width: 700px) {
   .cnav a:not(:first-child) {display: none;}
   .cnav a.icon {
@@ -175,3 +193,76 @@ a:active {
   .cnav {
     text-align: left;
   }
+*/
+
+.bss {
+    background: url("images/spr_bingsoy.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+     /* Firefox */
+    image-rendering: crisp-edges;
+    /* Chromium + Safari */
+    image-rendering: pixelated;
+}
+    
+.bss_1-1 {
+    background-position: -0px -0px;
+}
+.bss_1-1:hover {
+    background-position: -32px -0px;
+}
+/**/
+.bss_1-2 {
+    background-position: -64px -0px;
+}
+.bss_1-2:hover {
+    background-position: -96px -0px;
+}
+/**/
+.bss_1-3 {
+    background-position: -128px -0px;
+}
+.bss_1-3:hover {
+    background-position: -160px -0px;
+}
+/**/
+.bss_1-4 {
+    background-position: -192px -0px;
+}
+.bss_1-4:hover {
+    background-position: -224px -0px;
+}
+
+
+.bss_2-1 {
+    background-position: -0px -32px;
+}
+.bss_2-1:hover {
+    background-position: -32px -32px;
+}
+/**/
+.bss_2-2 {
+    background-position: -64px -32px;
+}
+.bss_2-2:hover {
+    background-position: -96px -32px;
+}
+
+.bss_3-1 {
+    background-position: -0px -64px;
+}
+.bss_3-1:hover {
+    background-position: -32px -64px;
+}
+/**/
+.bss_3-2 {
+    background-position: -64px -64px;
+}
+.bss_3-2:hover {
+    background-position: -96px -64px;
+}
+
+.linknodec {
+    text-decoration: none;
+}
