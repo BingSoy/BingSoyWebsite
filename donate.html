@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="jquery.js"></script>
+     <script>
+            $(function(){
+                $("#jq_menu").load("navmenu.html");
+                $("#jq_header").load("header.html");
+                $("#jq_footer").load("footer.html");
+            });
+        </script>
+      <div id="jq_header"></div>
+  </head>
+  <body>
+      
+<div id="jq_menu"></div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "cnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "cnav";
+  }
+}
+</script>
+
+    <div class="bodydiv">
+
+    <h3 id="">Donate</h3>
+        
+    <p class="ptext">
+        
+        <br />
+        Support is appreciated. Please feel no pressure to donate.
+        <ul>
+            <li>Text</li>
+        </ul>
+    </p>
+        
+  <ul class="nav">
+      <li>
+        <script type="text/javascript"  src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="BingSoy" data-color="#406f42" data-emoji="💵"  data-font="Arial" data-text="Donate to Bing Soy" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+      </li>
+  </ul>
+        
+    </div>
+
+  </body>
+
+<footer>
+    <div id="jq_footer"></div>
+</footer>
+
+</html>
