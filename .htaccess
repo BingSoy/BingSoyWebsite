@@ -2,3 +2,6 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteCond %{THE_REQUEST} ^GET\ /foo/
+RewriteRule ^pages/(.*)$ testname/$1 [R,L]
