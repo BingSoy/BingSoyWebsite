@@ -1,7 +1,8 @@
-RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteEngine On
+RewriteBase /
 
-RewriteCond %{THE_REQUEST} ^GET\ /foo/
-RewriteRule ^pages/(.*)$ testname/$1 [R,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+pages/([^\s]+) [NC]
+RewriteRule ^ %1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (?!^pages/)^(.*)$ /pages/$1 [L,NC]
