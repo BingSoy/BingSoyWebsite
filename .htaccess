@@ -1,5 +1,0 @@
-# DirectoryIndex pages/index.html
-
-RewriteEngine on
-RewriteCond %{REQUEST_URI} !^pages/
-RewriteRule ^(.*)$ pages/$1 [L]
