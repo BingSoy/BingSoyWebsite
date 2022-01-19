@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Bing Soy's Website</title>
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-    <script src="jquery.js"></script>
-     <script>
-            $(function(){
-                $("#includedContent").load("navmenu.html");
-            });
-        </script>
-      
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Bing Soy's Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/script/jquery.js"></script>
+    <script src="/script/HTMLImport.js"></script>
   </head>
-  <body>
+<body>
       
-<div id="includedContent"></div>
+<script>HTMLImporter.import("/common/navmenu.html");</script>
 
 <script>
 function myFunction() {
@@ -29,81 +24,25 @@ function myFunction() {
 }
 </script>
 
-    <div class="bodydiv">
-
+  <div class="bodydiv">
     <h1 id="titlename" class="centertxt">Bing Soy</h1>
     <p class="ptext">
-        (Site under construction)
+        Bing Soy.
         <br />
-        Bing Soy strives to make a variety of art + videos. A decision was made to categorize into many channels – as to give viewers a choice as to what videos they want to see from Bing Soy.
+        (Site under construction)
     </p>
-
-<div>
-  <ul class="nav">
-      <li>
-          <a href="https://www.youtube.com/BingSoyAnimations" target="_blank" alt="Animations" class="linknodec"><div class="bss bss_1-1"></div></a>
-          <ul class="nav"><li>Animations</li></ul>
-      </li>
-      <li>
-          <a href="https://www.youtube.com/channel/UChohCastO1W7lrSNHC6BEXQ" target="_blank" alt="Art" class="linknodec"><div class="bss bss_1-2"></div></a>
-          <ul class="nav"><li>Art</li></ul>
-      </li>
-      <li>
-          <a href="https://www.youtube.com/channel/UCI6eY-0Hl6whibQcN8pa7vA" target="_blank" alt="Edits" class="linknodec"><div class="bss bss_1-3"></div></a>
-          <ul class="nav"><li>Edits</li></ul>
-      </li>
-      <li>
-          <a href="https://www.youtube.com/channel/UCqCsNsJt43brrp28JQiEoiA" target="_blank"  alt="Music" class="linknodec"><div class="bss bss_1-4"></div></a>
-          <ul class="nav"><li>Music</li></ul>
-      </li>
-  </ul>
-</div>
-
-<div>
-  <ul class="nav">
-      <li>
-          <a href="https://www.youtube.com/channel/UCj5vCC_PuSuM8TqQKT9jGTQ" target="_blank" alt="Team Fortress" class="linknodec"><div class="bss bss_2-1"></div></a>
-          <ul class="nav"><li>Team&nbspFortress</li></ul>
-      </li>
-      <li>&nbsp&nbsp|||||||||</li>
-      <li>
-          <a href="https://www.youtube.com/channel/UCblns1vYuSaVRA3wbGonk6w" target="_blank" alt="Minecraft" class="linknodec"><div class="bss bss_2-2"></div></a>
-          <ul class="nav"><li>Minecraft</li></ul>
-      </li>
-      <li>
-          <a href="https://www.youtube.com/channel/UCkh_YNZ6Aobz0kwUVVBFniQ" target="_blank" alt=">Monster Hunter" class="linknodec"><div class="bss bss_2-3"></div></a>
-          <ul class="nav"><li>Monster&nbspHunter</li></ul>
-      </li>
-  </ul>
-</div>
-
-<div>
-  <ul class="nav">
-      <li>
-          <a href="https://www.youtube.com/channel/UCFkMdSw-Dhxw0_6tCGL5xcQ" target="_blank" alt="TBA" class="linknodec"><div class="bss bss_3-1"></div></a>
-          <ul class="nav"><li>2bing2soy</li></ul>
-      </li>      
-      <li>|||||||||</li>
-      <li>
-          <a href="https://www.youtube.com/channel/UCGLRSQvTm-v_j8VSN29zJXQ" target="_blank" alt="TBA" class="linknodec"><div class="bss bss_3-2"></div></a>
-          <ul class="nav"><li>3bing3soy</li></ul>
-      </li>
-  </ul>
-</div>
         
      <!--<img src="images/placeholder.png" alt="Placeholder Image" class="border center"> -->
 
-    <p class="ptext centertxt"><a href="https://bingsoywip.blogspot.com/" target="_blank">WIP Blog</a><br><br>
+    <p class="ptext centertxt"><a href="https://bingsoywip.blogspot.com/" target="_blank">WIP Blog (no in depth, just place to post some stuff bing soy work on)</a><br><br>
 
-    <p class="ptext centertxt"><a href="https://www.youtube.com/watch?v=wIMSU8otS-g" target="_blank">Link test (YouTube)</a><br><br>
+    <p class="ptext centertxt"><a href="https://www.youtube.com/watch?v=wIMSU8otS-g" target="_blank">"Daft Punk - Random Access Memories (Full Album)" (YouTube)</a><br><br>
     </p>
 
-    </div>
+  </div>
 
-  </body>
-
-<footer>
-    <p> &copy 2022 Bing Soy</p>
-</footer>
-
+  <footer>
+    <script>HTMLImporter.import("/common/footer.html");</script>
+  </footer>
+ </body>
 </html>

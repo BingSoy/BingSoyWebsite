@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="jquery.js"></script>
-     <script>
-            $(function(){
-                $("#jq_menu").load("navmenu.html");
-                $("#jq_header").load("header.html");
-                $("#jq_footer").load("footer.html");
-            });
-        </script>
-      <div id="jq_header"></div>
+    <title>Bing Soy's Website</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/script/jquery.js"></script>
+    <script src="/script/HTMLImport.js"></script>
   </head>
+    
   <body>
+    
+<script>HTMLImporter.import("/common/navmenu.html");</script>
       
-<div id="jq_menu"></div>
-
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -34,9 +33,6 @@ function myFunction() {
         
         <br />
         Support is appreciated. Please feel no pressure to donate.
-        <ul>
-            <li>Text</li>
-        </ul>
     </p>
         
   <ul class="nav">
@@ -50,7 +46,7 @@ function myFunction() {
   </body>
 
 <footer>
-    <div id="jq_footer"></div>
+  <script>HTMLImporter.import("/common/footer.html");</script>
 </footer>
 
 </html>
