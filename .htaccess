@@ -1,5 +1,5 @@
-DirectoryIndex pages/index.html
+# DirectoryIndex pages/index.html
 
-# Turn Rewrite Engine On
-RewriteEngine On
-RewriteRule ^pages/(.*) /folder/$1 [R=301,NC,L]
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^pages/
+RewriteRule ^(.*)$ pages/$1 [L]
