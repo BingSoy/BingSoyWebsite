@@ -1,8 +1,4 @@
-# DirectoryIndex pages/index.html
-
-RewriteEngine on
-RewriteCond %{REQUEST_URI} !^pages/
-RewriteRule ^(.*)$ pages/$1 [L]
-
-
-# UPDATE
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]

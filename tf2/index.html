@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bing Soy's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/script/jquery.js"></script>
+    <script src="/script/HTMLImport.js"></script>
+  </head>
+<body>
+      
+<div class="cnav" id="myTopnav">
+  <a href="/index" class="active">Home</a>
+  <a href="/about">About</a>
+  <a href="/socials">Socials</a>
+  <a href="/projects">Projects</a>
+  <a href="/donate">Donate</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "cnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "cnav";
+  }
+}
+</script>
+
+  <div class="bodydiv">
+    <h1 id="titlename" class="centertxt">Bing Soy</h1>
+    <p class="ptext">
+        Bing Soy.
+        <br />
+        (Site under construction)
+        <br />
+        ||
+    </p>
+        
+     <!--<img src="images/placeholder.png" alt="Placeholder Image" class="border center"> -->
+
+    <p class="ptext centertxt"><a href="https://bingsoywip.blogspot.com/" target="_blank">WIP Blog (no in depth, just place to post some stuff bing soy work on)</a><br><br>
+
+    <p class="ptext centertxt"><a href="https://www.youtube.com/watch?v=wIMSU8otS-g" target="_blank">"Daft Punk - Random Access Memories (Full Album)" (YouTube)</a><br><br>
+    </p>
+
+  </div>
+
+  <footer>
+    <script>HTMLImporter.import("/common/footer.html");</script>
+  </footer>
+ </body>
+</html>
