@@ -6,22 +6,12 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="/script/jquery.js"></script>
-    <script src="/script/HTMLImport.js"></script>
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
   </head>
     
   <body>
-    
-<div class="cnav" id="myTopnav">
-  <a href="/index">Home</a>
-  <a href="#">About</a>
-  <a href="/pages/socials">Socials</a>
-  <a href="#">Projects</a>
-  <a href="/pages/donate" class="active">Donate</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+<header-component></header-component>
       
 <script>
 function myFunction() {
@@ -38,7 +28,7 @@ function myFunction() {
 
     <h3 id="">Donate</h3>
         
-    <p class="ptext">
+    <p class="ptext text">
         
         <br />
         Support is appreciated. Please feel no pressure to donate.
@@ -54,8 +44,6 @@ function myFunction() {
 
   </body>
 
-<footer>
-  <script>HTMLImporter.import("/common/footer.html");</script>
-</footer>
+<footer-component></footer-component>
 
 </html>
