@@ -1,11 +1,12 @@
-/*//////////MAIN///////////*/
+/*//////////////////// MAIN ////////////////////////*/
 body, footer {
   background-color: #0f0f0f;
   color: white;}
 .bodydiv {
   background-color: #212121;
-  margin: 1.5vh auto;
-  width: 60%;}
+  margin: 1.5vh auto 1.5vh;
+  width: 60%;
+  padding: 1.5vh 0px 1px;}
 @media screen and (max-width: 1440px) {
   .bodydiv
     {width:80%;}}
@@ -21,7 +22,7 @@ p {
 tr:nth-child(even) {
   background-color: #222;
 }
-/*HEADINGS//////////////////////////////*/
+/*/////////////////////// HEADINGS //////////////////////////////*/
 h1 {
   color: white;
   font-family:  "Arial Black", sans-serif;
@@ -39,7 +40,7 @@ table, th, td {
 table {
   background-color: #111;
 }
-/*CLASS///////////////////////////////*/
+/*///////////////////// CLASS ///////////////////////////////*/
 .text {
   padding: 0vh 2.5vw;}
 .border {
@@ -53,12 +54,21 @@ table {
   margin-right: auto;}
 .centertxt{
   text-align: center;}
-/*//////*/
-/*ID*/
+.index a.index,
+.about a.about,
+.socials a.socials,
+.projects a.projects,
+.donate a.donate
+{
+  background-color: #b79d0a;
+  color: white;}
+.ptext{
+  /*padding: 0vh 2.5vw;*/}
+/*/////////////////// ID ///////////////////////////*/
 #titlename {
   font-size: 4em;
 }
-/*LINKS/////////////////*/
+/*/////////// LINKS /////////////////*/
 a:link {/*unvisited link*/
   color: #F7DC4F;}
 a:visited {/* visited link */
@@ -67,8 +77,30 @@ a:hover {/* mouse over link */
   color: #EDB218;}
 a:active {/* selected link */
   color: #FFF7B7;}
-/*NAVBAR/////////////////*/
-.cnav{
+/*///// NAVBAR CAT //////////////////////*/
+.cnav2{
+  list-style:none;
+  margin:0;
+  padding:0;
+  font-size:0.8em;
+  text-align:center;
+  background-color: #222222;
+  overflow: hidden;}
+.cnav2 a {
+  display:inline-block;
+  padding:5px 10px;
+  text-decoration: none;
+  font-family:  "Arial", sans-serif;}
+.cnav2 a:hover {
+  background-color: #ddd;
+  color: black;}
+.cnav2 a.active {
+  background-color: #b79d0a;
+  color: white;}
+.cnav2 .icon {
+  display: none;}
+/*///// NAVBAR MAIN /////////////////*/
+.cnav {
   list-style:none;
   margin:0;
   padding:0;
@@ -89,7 +121,7 @@ a:active {/* selected link */
   color: white;}
 .cnav .icon {
   display: none;}
-/*/////////////*/
+/*//// RESPONSIVE /////////*/
 @media screen and (max-width: 700px) {
   .cnav a:not(:first-child) {display: none;}
   .cnav a.icon {
@@ -130,7 +162,6 @@ a:active {/* selected link */
       display: inline-block;
       padding: 30px 40px;}
 }
-
 /*SOCIAL YT CSS*/
 .bss {
   background: url("images/spr_bingsoy.png") no-repeat;
@@ -146,7 +177,7 @@ bss {
   -ms-transform: scale(2);
   -o-transform: scale(2);
   -webkit-transform: scale(2);
-  transform: scale(2);}
+  transform: scale(2);}}
 .bss_1-1 {
   background-position: -0px -0px;}
 .bss_1-1:hover {
@@ -201,7 +232,7 @@ ul.nav {
 }
 ul.nav > li {
   display: inline-block;
-  padding: 10px 0px;
+  padding: 10px 5px;
 }
 ul.nav > li:hover {
 }
