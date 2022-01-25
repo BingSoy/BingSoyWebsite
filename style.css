@@ -40,6 +40,11 @@ table, th, td {
 table {
   background-color: #111;
 }
+h4#subtitle{
+  color: white;
+  font-family:  "Courier New", sans-serif;
+  margin: auto
+}
 /*///////////////////// CLASS ///////////////////////////////*/
 .text {
   padding: 0vh 2.5vw;}
