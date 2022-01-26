@@ -16,7 +16,8 @@ body, footer {
 footer {
   text-align: center;}
 ul {
-  margin-left:7%;}
+  margin-left:7%;
+  font-family: "Calibri";}
 p {
   font-family: "Calibri";}
 tr:nth-child(even) {
@@ -69,6 +70,31 @@ h4#subtitle{
   color: white;}
 .ptext{
   /*padding: 0vh 2.5vw;*/}
+a.btn {
+  font-family:  "Courier New", sans-serif;
+  font-size:1.2em;
+  font-weight: bold;
+  border-radius: 5px;
+  border:1px solid #F7DC4F;
+  background-color:#444;
+  padding: 5px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  display:inline-block;
+  margin:0;
+}
+.cnav3 {
+  background-color: #333333;
+  overflow: hidden;}
+
+a.btn:hover {
+    background-color:white;
+}
+a.btn:active {
+    color:FFF7B7;
+    background-color: #b79d0a;
+}
 /*/////////////////// ID ///////////////////////////*/
 #titlename {
   font-size: 4em;
@@ -95,7 +121,7 @@ a:active {/* selected link */
   display:inline-block;
   padding:5px 10px;
   text-decoration: none;
-  font-family:  "Arial", sans-serif;}
+  font-family:  "Verdana", sans-serif;line-height:10px}
 .cnav2 a:hover {
   background-color: #ddd;
   color: black;}
