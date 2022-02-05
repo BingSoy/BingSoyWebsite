@@ -6,9 +6,9 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
  <div class="cnav" id="myTopnav">
-  <a class="index" href="index.html">Home</a>
-  <a class="fixgame" href="fixgame.html">Fix Game</a>
-  <a class="about" href="about.html">About</a>
+  <a class="index" href="https://bingsoy.com/tf2">Home</a>
+  <a class="fixgame" href="fixgame">Fix Game</a>
+  <a class="about" href="about">About</a>
   <a href="https://www.youtube.com/channel/UCj5vCC_PuSuM8TqQKT9jGTQ" target="blank">YouTube&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
