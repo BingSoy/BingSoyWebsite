@@ -107,6 +107,9 @@ a.btn:active {
 #titlename {
   font-size: 4em;
 }
+.qwf{
+ display: inline;
+}
 #banana {
 }
 /*/////////// LINKS /////////////////*/
@@ -270,6 +273,15 @@ bss {
 ul.nav {
   padding-left: 0px;
   text-align: center;
+}
+
+ul.navm {
+  padding-left: 0px;
+  text-align: center;
+}
+ul.navm > li {
+  display: inline-block;
+  padding: 10px 5px;
 }
 ul.nav > li {
   display: inline-block;
