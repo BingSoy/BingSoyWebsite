@@ -31,7 +31,7 @@ var arr = [
     capt:'Notch',
     desc:"Created Minecraft, a sandbox game where you can build anything you want.",
     link:"https://www.youtube.com/watch?v=BES9EKK4Aw4", imag:'http://img1.wikia.nocookie.net/__cb20130108185700/mojang/images/9/9a/Bfdbdbfdsbfbdjbsfs.jpg',
-    chid:'UCoUVpbIvlbroqBxeS4S26GQ'},
+    chid:''},
   
   {name:'Bernard Hsu',
     capt:'Chubbyemu',
@@ -60,12 +60,41 @@ var arr = [
     imag:'https://static.wikia.nocookie.net/youtube/images/7/7b/Uncle_dane_irl.jpg',
     chid:'UCu0PSyLD5p_J5osLk5UD0pw'},
     
-    {name:'Leonard Simon Nimoy',
+    {name:'Leonard Simon Nimoy<sup>&nbsp;&dagger;</sup>',
     capt:'Spock',
-    desc:"Helped Bing Soy more so realize the power of logic through his performance of Spock. 🖖‍‍",
+    desc:"Helped Bing Soy more so realize the power of logic through his performance of Spock. By joining logic and emotion, you become something magnificent. 🖖‍‍",
     link:"https://www.youtube.com/watch?v=2vNBA8mHFf8",
     imag:'http://www.coronacomingattractions.com/sites/default/files/news/leonard_nimoy_spock_on_shoulder.jpg',
     chid:''},
+  
+    {name:'Marcus Jamal Hopson',
+    capt:'Hopsin',
+    desc:"Ill mind.",
+    link:"https://www.youtube.com/watch?v=QBsA2ETp7JA",
+    imag:'https://celebrityinside.com/wp-content/uploads/2020/09/Rapper-Hopsin.jpg',
+    chid:'UCvlJkDfgfG3J38pup6lvrPg'},
+  
+    {name:'Chris Broad',
+    capt:'Abroad in Japan',
+    desc:"Helped spark/amplify an interest into Japanese culture.",
+    link:"https://www.youtube.com/watch?v=3LS83dDqoGU",
+    imag:'https://biographymask.com/wp-content/uploads/2020/06/Chris-Broad-profile..jpg',
+    chid:'UCHL9bfHTxCMi-7vfxQ-AYtg'},
+  
+    {name:'Markus Meechan',
+    capt:'Count Dankula',
+    desc:'A man who made a distasteful joke (these jokes are funny because they&#39;re messed up) which got him unjustly arrested - context was disregarded. Even after all the physical/emotional strain, he stood up for free speech, which is readily eroding.<br />His "Mad Lads" series is quite good.',
+    link:"https://www.youtube.com/watch?v=g4ol3Xhc2QM",
+    imag:'https://archive.is/dTc1y/8d51a83fa50e22d1eb2501a7b22f13221910faea.jpg',
+    chid:'UC7SeFWZYFmsm1tqWxfuOTPQ'},
+  
+    {name:'Shigesato Itoi',
+    capt:'糸井重里',
+    desc:'Created the Mother (video game) series.',
+    link:"https://www.youtube.com/watch?v=VLLTijc0sNE",
+    imag:'https://vglegacy.com/wp-content/uploads/2019/11/Shigesato-Itoi.jpg',
+    chid:''},
+  
 ];
 var template = document.querySelector('#tmptri');
 for (var i = 0; i < arr.length; i++) {
@@ -92,15 +121,16 @@ for (var i = 0; i < arr.length; i++) {
 	p[0].className = "desc";
  p[0].innerHTML = trib.desc;
 
-//DIV
  var div = clone.querySelectorAll('div');
+  
+//IF CHID NOT EMPTY THEN DISPLAY SUB:
+if (trib.chid !== "") {
+  div[0].setAttribute("class", "g-ytsubscribe");}
+  //console.log(trib.chid);
  div[0].setAttribute("data-channelid", trib.chid);
  div[0].setAttribute("data-layout", "full");
  div[0].setAttribute("data-theme", "dark");
  div[0].setAttribute("data-count", "default");
-  
-//document.getElementsByTagName("data-channelid").removeAttribute("data-channelid");  
-  
   
 	template.parentNode.appendChild(clone);
 }

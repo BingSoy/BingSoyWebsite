@@ -47,7 +47,8 @@ h5 {
   font-style: italic;
   margin: auto;}
 hr{
-width: 50%;
+width: 30%;
+  color:gray;
 }
 table, th, td {
   font-family: "Calibri";}
@@ -104,7 +105,9 @@ a.btn {
 .cnav3 {
   background-color: #333333;
   overflow: hidden;}
-
+.cnav4 {
+  background-color: #111;
+  overflow: hidden;}
 a.btn:hover {
     background-color: white;
 }
