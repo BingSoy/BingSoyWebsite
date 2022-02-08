@@ -64,7 +64,7 @@ var arr = [
     capt:'Spock',
     desc:"Helped Bing Soy more so realize the power of logic through his performance of Spock. By joining logic and emotion, you become something magnificent. 🖖‍‍",
     link:"https://www.youtube.com/watch?v=2vNBA8mHFf8",
-    imag:'http://www.coronacomingattractions.com/sites/default/files/news/leonard_nimoy_spock_on_shoulder.jpg',
+    imag:'https://www.celebsfacts.com/wp-content/uploads/2019/03/Leonard-Nimoy.jpg',
     chid:''},
   
     {name:'Marcus Jamal Hopson',
