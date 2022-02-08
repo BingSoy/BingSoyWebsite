@@ -36,6 +36,19 @@ h3 {
   color: white;
   font-family:  "Arial Black", sans-serif;
   margin: auto;}
+h4 {
+  color: white;
+  font-family: 'Times New Roman', serif;
+  font-size:20px;
+  margin: auto;}
+h5 {
+  color: white;
+  font-family:  "Times New Roman";
+  font-style: italic;
+  margin: auto;}
+hr{
+width: 50%;
+}
 table, th, td {
   font-family: "Calibri";}
   border: 1px solid #999;
@@ -274,15 +287,41 @@ ul.nav {
   padding-left: 0px;
   text-align: center;
 }
-
 ul.navm {
   padding-left: 0px;
   text-align: center;
 }
 ul.navm > li {
   display: inline-block;
-  padding: 10px 5px;
+  padding: 0px 0px;
 }
+
+ul.navt {
+  padding-left: 0px;
+  text-align: left;
+}
+ul.navt > li {
+  display: inline-block;
+  margin: auto;
+  padding: 0px 0px;
+  vertical-align: top;
+}
+.lululu{
+  width: 40vw;
+}
+.imag{
+  width:150px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: thin;
+}
+
+.itit{
+border-style: solid;
+  border-color: white;
+  border-width: thin;
+}
+
 ul.nav > li {
   display: inline-block;
   padding: 10px 5px;
