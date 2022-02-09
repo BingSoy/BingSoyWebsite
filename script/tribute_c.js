@@ -1,6 +1,6 @@
 var arr = [
    {name:'Hannibal (TV Series)',
-    capt:'A Lovers Quarrel',
+    capt:'A Lovers&apos; Quarrel',
     desc:'Outstanding cinematography and performance. Hugh Dancy&apos;s performance as Will Graham helped Bing Soy&apos;s self-esteem on his own empathy. Empathy is a powerful thing and it is not a weakness/sickness. Mads Mikkelsen&apos;s performance helped Bing Soy to be more honest to himself despite what others think, and to appreciate the finer things in life, such as good food and music. Helped Bing Soy move towards his own becoming (as an artist, of course).',
     link:"https://www.youtube.com/watch?v=Es3B24z8fdA",
     imag:'https://i.pinimg.com/originals/8c/f0/37/8cf0379101a68f058d1f4345d70b2693.jpg',
