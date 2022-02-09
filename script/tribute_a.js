@@ -17,7 +17,7 @@ var arr = [
     capt:'lft',
     desc:"Technical and passionate about chip music.",
     link:"https://www.youtube.com/watch?v=h42neZVvoMY",
-    imag:'https://yt3.ggpht.com/ytc/AKedOLQjp4nxZmg-I_i4B0He2i1GGVgs-r5PXfby83Bb=s88-c-k-c0x00ffffff-no-rj',
+    imag:'https://yt3.ggpht.com/ytc/AKedOLQjp4nxZmg-I_i4B0He2i1GGVgs-r5PXfby83Bb=s150',
     chid:'UC8ge7La_vq48PVEmR-DJ5Wg'},
   
   {name:'Marshall Bruce Mathers III',
