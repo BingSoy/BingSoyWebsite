@@ -97,11 +97,11 @@ var arr = [
     chid:'UCQ4FyiI_1mWI2AtLS5ChdPQ'},
   
     {name:'Bing Soy',
-    capt:'Dave from Boyinaband',
-    desc:'Made very impactful music and shared some personal experiences with us. Also helped inspire Bing Soy to grow (or attempt to) grow flowing locks in the face of hair stigma.',
-    link:"https://www.youtube.com/watch?v=LkfM-UK5BgM",
-    imag:'http://contactceleb.com/wp-content/uploads/2017/11/Boyina-band.jpg',
-    chid:'UCQ4FyiI_1mWI2AtLS5ChdPQ'},
+    capt:'Bing Soy',
+    desc:'Bing Soy helped Bing Soy throughout tough times and continues to do so. He has a deep understanding of the true essence of Bing Soy. Thank you for holding on for him. He wants to show you and the world what lies within.',
+    link:"https://bingsoy.com/",
+    imag:'images/logotest.png',
+    chid:'UC31C3IKwwUiScKf0aNi0C2A'},
   
 ];
 var template = document.querySelector('#tmptri');
