@@ -22,16 +22,10 @@ var arr = [
   
   {name:'Marshall Bruce Mathers III',
     capt:'Eminem',
-    desc:"Great rapper.",
+    desc:"Great rapper. Immense strength to show very personal side of him in medium of song.",
     link:"https://www.youtube.com/watch?v=7bDLIV96LD4",
     imag:'https://pbs.twimg.com/profile_images/929030268043845633/ilS1ri2v.jpg',
     chid:'UCfM3zsQsOnfWNUppiycmBuw'},
-  
-  {name:'Markus Alexej Persson',
-    capt:'Notch',
-    desc:"Created Minecraft, a sandbox game where you can build anything you want.",
-    link:"https://www.youtube.com/watch?v=BES9EKK4Aw4", imag:'http://img1.wikia.nocookie.net/__cb20130108185700/mojang/images/9/9a/Bfdbdbfdsbfbdjbsfs.jpg',
-    chid:''},
   
   {name:'Bernard Hsu',
     capt:'Chubbyemu',
@@ -94,6 +88,20 @@ var arr = [
     link:"https://www.youtube.com/watch?v=VLLTijc0sNE",
     imag:'https://vglegacy.com/wp-content/uploads/2019/11/Shigesato-Itoi.jpg',
     chid:''},
+  
+    {name:'David Paul "Dave" Brown',
+    capt:'Dave from Boyinaband',
+    desc:'Made very impactful music and shared some personal experiences with us. Also helped inspire Bing Soy to grow (or attempt to) grow flowing locks in the face of hair stigma.',
+    link:"https://www.youtube.com/watch?v=LkfM-UK5BgM",
+    imag:'http://contactceleb.com/wp-content/uploads/2017/11/Boyina-band.jpg',
+    chid:'UCQ4FyiI_1mWI2AtLS5ChdPQ'},
+  
+    {name:'Bing Soy',
+    capt:'Dave from Boyinaband',
+    desc:'Made very impactful music and shared some personal experiences with us. Also helped inspire Bing Soy to grow (or attempt to) grow flowing locks in the face of hair stigma.',
+    link:"https://www.youtube.com/watch?v=LkfM-UK5BgM",
+    imag:'http://contactceleb.com/wp-content/uploads/2017/11/Boyina-band.jpg',
+    chid:'UCQ4FyiI_1mWI2AtLS5ChdPQ'},
   
 ];
 var template = document.querySelector('#tmptri');

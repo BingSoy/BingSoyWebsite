@@ -10,4 +10,4 @@ class Footer extends HTMLElement {
   }
 }
 
-customElements.define('footer-component', Footer);
+customElements.define('f-copy', Footer);

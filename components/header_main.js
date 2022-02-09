@@ -10,7 +10,7 @@ class Header extends HTMLElement {
   <a class="about" href="about">About</a>
   <a class="socials" href="socials">Socials</a>
   <a class="projects" href="projects">Projects</a>
-  <a class="tribute" href="donate">Donate</a>
+  <a class="donate" href="donate">Donate</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
