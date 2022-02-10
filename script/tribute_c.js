@@ -11,7 +11,7 @@ var arr = [
     desc:'A cathartic film. Misery of man imposed upon itself. People just trying to survive in the world. Standing up for something greater in the face of this misery. The world can be cruel and it is messed up. United, we can overcome or at least strive to resist the misery. Helped Bing Soy appreciate musicals more. Its short runtime (compared to the full live performance) serves as a good entry point into the world of Les Misérables, including the exemplary performances of Colm Wilkinson and Philip Quast.<br />Vive la France.',
     link:"https://www.youtube.com/watch?v=jQDh2JKKqLg&list=PLosw7wOJsxXz5_5L6Wv7rxg_aQ6s2l0O3&index=21",
     imag:'https://i.pinimg.com/originals/61/cd/8e/61cd8ee773f0fc430a9fc2f8cee99efb.jpg',
-    chid:'I had a'},
+    chid:''},
   
     {name:'Minecraft (2009)',
     capt:'I had a dream last night. I built the universe. Minecraft.',
@@ -53,6 +53,20 @@ var arr = [
     desc:'Set in the Breaking Bad universe. Fleshes out the morally ambiguous character that is Saul Goodman, played by Bob Odenkirk. Cinematography and performances on par with Breaking Bad. Created by Vince Gilligan and Peter Gould.',
     link:"https://www.youtube.com/watch?v=qll7hCYFNjs",
     imag:'https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/19/1494327191-better-call-saul-season-3.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=200:*',
+    chid:''},
+  
+    {name:'Tyrian (DOS - 1995)',
+    capt:'Gyges, Will You Please Help Me?',
+    desc:'Classic spaceship arcade shoot-em-up game.',
+    link:"https://www.youtube.com/watch?v=w4XOBfOcYgE",
+    imag:'https://www.giantbomb.com/a/uploads/square_small/0/904/244416-file0001_003.png',
+    chid:''},
+  
+    {name:'One Must Fall: 2097 (1994)',
+    capt:'Jaguar grab spam',
+    desc:'Classic giant mecha arcade fighting game game.',
+    link:"https://www.youtube.com/watch?v=6fGM1cvUQv8",
+    imag:'https://www.myabandonware.com/media/screenshots/o/one-must-fall-2097-2a7/one-must-fall-2097_2.gif',
     chid:''},
   
 ];
