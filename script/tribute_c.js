@@ -1,7 +1,7 @@
 var arr = [
    {name:'Hannibal (TV Series)',
     capt:'A Lovers&apos; Quarrel',
-    desc:'Outstanding cinematography and performance. Hugh Dancy&apos;s performance as Will Graham helped Bing Soy&apos;s self-esteem on his own empathy. Empathy is a powerful thing and it is not a weakness/sickness. Mads Mikkelsen&apos;s performance helped Bing Soy to be more honest to himself despite what others think, and to appreciate the finer things in life, such as good food and music. Helped Bing Soy move towards his own becoming (as an artist, of course).',
+    desc:'Outstanding cinematography and performance. Hugh Dancy&apos;s performance as Will Graham helped Bing Soy&apos;s self-esteem on his own empathy. Empathy is a powerful thing and it is not a weakness/sickness. Mads Mikkelsen&apos;s performance helped Bing Soy to be more honest to himself despite what others think, and to appreciate the finer things in life, such as good food and music. Helped Bing Soy move towards his own becoming (as a human and an artist, of course).',
     link:"https://www.youtube.com/watch?v=Es3B24z8fdA",
     imag:'https://i.pinimg.com/originals/8c/f0/37/8cf0379101a68f058d1f4345d70b2693.jpg',
     chid:''},
@@ -24,7 +24,7 @@ var arr = [
     capt:'Life is pain',
     desc:'Helped Bing Soy see that you can still help people, even when in pain or with a neurotic personality. It matters more to objectively help than to be perceived to be a help. Outstanding performance by Hugh Laurie.',
     link:"https://www.youtube.com/watch?v=gsNUS7PaAP0",
-    imag:'http://housemd-guide.com/season4/4images/413house.jpg',
+    imag:'https://static.wikia.nocookie.net/house/images/c/c5/House-season-8-10.jpg',
     chid:''},
   
     {name:'Good Will Hunting (1997)',
@@ -39,6 +39,20 @@ var arr = [
     desc:'Amazing film, refreshing, bold cinematography. Directed by Quentin Tarantino.',
     link:"https://www.youtube.com/watch?v=J3UyjlaBMcY",
     imag:'https://img.hmv.co.jp/image/jacket/400/01/8/8/045.jpg',
+    chid:''},
+  
+    {name:'Breaking Bad (TV Series 2008-2013)',
+    capt:'Step aside, Butch',
+    desc:'A story of a man who wanted to feel alive and have his life amount to something. Consequences ensue. Impactful, heavy cinematography and performances. Created by Vince Gilligan.',
+    link:"https://www.youtube.com/watch?v=Beu8eDYc0RM",
+    imag:'https://t2.genius.com/unsafe/300x300/https:%2F%2Fimages.genius.com%2F2562509e21b27429361d7b0ee4400040.600x600x1.jpg',
+    chid:''},
+  
+    {name:'Better Call Saul (TV Series 2015-2022)',
+    capt:'Step aside, Butch',
+    desc:'Set in the Breaking Bad universe. Fleshes out the morally ambiguous character that is Saul Goodman, played by Bob Odenkirk. Cinematography and performances on par with Breaking Bad. Created by Vince Gilligan and Peter Gould.',
+    link:"https://www.youtube.com/watch?v=qll7hCYFNjs",
+    imag:'https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/19/1494327191-better-call-saul-season-3.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=200:*',
     chid:''},
   
 ];
