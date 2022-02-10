@@ -8,7 +8,7 @@ var arr = [
   
     {name:'Les Misérables (2012)',
     capt:'The Miserable',
-    desc:'A cathartic film. Misery of man imposed upon itself. People just trying to survive in the world. Standing up for something greater in the face of this misery. The world can be cruel and it is messed up. United, we can overcome or at least strive to resist the misery. Helped Bing Soy appreciate musicals more. Its short runtime (compared to the full live performance) serves as a good entry point into the world of Les Misérables, including the exemplary performanced of Colm Wilkinson and Philip Quast.<br />Vive la France.',
+    desc:'A cathartic film. Misery of man imposed upon itself. People just trying to survive in the world. Standing up for something greater in the face of this misery. The world can be cruel and it is messed up. United, we can overcome or at least strive to resist the misery. Helped Bing Soy appreciate musicals more. Its short runtime (compared to the full live performance) serves as a good entry point into the world of Les Misérables, including the exemplary performances of Colm Wilkinson and Philip Quast.<br />Vive la France.',
     link:"https://www.youtube.com/watch?v=jQDh2JKKqLg&list=PLosw7wOJsxXz5_5L6Wv7rxg_aQ6s2l0O3&index=21",
     imag:'https://i.pinimg.com/originals/61/cd/8e/61cd8ee773f0fc430a9fc2f8cee99efb.jpg',
     chid:''},
