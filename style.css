@@ -86,7 +86,8 @@ h4#subtitle{
 .tribute-a a.tribute-a,
 .tribute-b a.tribute-b,
 .tribute-c a.tribute-c,
-.credits a.credits
+.credits a.credits,
+.c-main a.c-main
 {
   background-color: lightgray;
   color: black;}

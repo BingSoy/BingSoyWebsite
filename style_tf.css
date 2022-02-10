@@ -128,7 +128,8 @@ text-decoration: none;
 .about a.about,
 .subclass a.subclass,
 .thank-you a.thank-you,
-.tribute a.tribute
+.tribute a.tribute,
+.c-tf2 a.c-tf2
 {
   background-color: #b79d0a;
   color: white;}
