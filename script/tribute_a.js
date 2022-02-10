@@ -98,9 +98,9 @@ var arr = [
   
     {name:'Bing Soy',
     capt:'Bing Soy',
-    desc:'Bing Soy helped Bing Soy throughout tough times and continues to do so. He has a deep understanding of the true essence of Bing Soy. Thank you for holding on for him. He wants to show you and the world what lies within.',
+    desc:'Bing Soy somehow helped himself throughout tough times and continues to do so. He tries everyday to understand himself.',
     link:"https://bingsoy.com/",
-    imag:'images/logotest.png',
+    imag:'images/bsmugshot.png',
     chid:'UC31C3IKwwUiScKf0aNi0C2A'},
   
 ];
