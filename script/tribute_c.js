@@ -42,14 +42,14 @@ var arr = [
     chid:''},
   
     {name:'Breaking Bad (TV Series 2008-2013)',
-    capt:'Step aside, Butch',
-    desc:'A story of a man who wanted to feel alive and have his life amount to something. Consequences ensue. Impactful, heavy cinematography and performances. Created by Vince Gilligan.',
+    capt:'I was alive',
+    desc:'A story of a man who wanted to feel alive and have his life amount to something. He descends into the ravenous underworld. Consequences ensue. Impactful, heavy cinematography and performances. Created by Vince Gilligan.',
     link:"https://www.youtube.com/watch?v=Beu8eDYc0RM",
     imag:'https://t2.genius.com/unsafe/300x300/https:%2F%2Fimages.genius.com%2F2562509e21b27429361d7b0ee4400040.600x600x1.jpg',
     chid:''},
   
     {name:'Better Call Saul (TV Series 2015-2022)',
-    capt:'Step aside, Butch',
+    capt:'The winner takes it all',
     desc:'Set in the Breaking Bad universe. Fleshes out the morally ambiguous character that is Saul Goodman, played by Bob Odenkirk. Cinematography and performances on par with Breaking Bad. Created by Vince Gilligan and Peter Gould.',
     link:"https://www.youtube.com/watch?v=qll7hCYFNjs",
     imag:'https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/19/1494327191-better-call-saul-season-3.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=200:*',
