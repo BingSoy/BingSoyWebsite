@@ -19,6 +19,20 @@ var arr = [
     link:"https://www.youtube.com/watch?v=6kbF93KRN70",
     imag:'https://yt3.ggpht.com/ytc/AKedOLQ3oSl-9wvpLb1d62F3du9IcKsrgl9xLgjzHj0g2A=s150',
     chid:'UCTZ2ANUw7OHz2LGci_6H34A'},
+      
+    {name:'shounic',
+    capt:'TF2 education',
+    desc:'Informative videos about TF2 game mechanics.',
+    link:"https://www.youtube.com/watch?v=kHKJ9Mf8UxU",
+    imag:'https://yt3.ggpht.com/ytc/AKedOLRkFQKMXVvqJyyldWdXAqTl66kuEeGtDmp9vo_dDA=s150',
+    chid:'UCHlTEt24Yb4ylJFuWz7hXIw'},
+      
+    {name:'Uncle Dane',
+    capt:'Engineer Gaming',
+    desc:'Good TF2 videos. Uncletopia.',
+    link:"https://www.youtube.com/watch?v=WHvwijT2ss8",
+    imag:'https://yt3.ggpht.com/ytc/AKedOLQozqxRhM8D9S0pIa02pFzTkY_IpdI2VfdxHnQsXQ=s150',
+    chid:'UCu0PSyLD5p_J5osLk5UD0pw'},
   
 ];
 var template = document.querySelector('#tmptri');
