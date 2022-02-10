@@ -98,7 +98,7 @@ var arr = [
   
     {name:'Bing Soy',
     capt:'Bing Soy',
-    desc:'Bing Soy somehow helped himself throughout tough times and continues to do so. He tries everyday to understand himself.',
+    desc:'Bing Soy strives to stay true to himself throughout tough times and continues to do so. He tries everyday to understand himself, finding his place in this strange world of ours. Perhaps this journey to be will shown through his work?',
     link:"https://bingsoy.com/",
     imag:'images/bsmugshot.png',
     chid:'UC31C3IKwwUiScKf0aNi0C2A'},
