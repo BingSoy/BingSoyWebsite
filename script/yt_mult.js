@@ -21,7 +21,7 @@ var arr = [
     chid:'UCI6eY-0Hl6whibQcN8pa7vA'},
     
    {name:'Bing Soy Music',
-    capt:'Composiing music',
+    capt:'Composing music',
     desc:'Yet to dedicate more time towards composition.',
     link:"https://bingsoy.bandcamp.com/",
     imag:'https://yt3.ggpht.com/ytc/AKedOLRYjYUNSfU1w8tBhx-y-rngTAfvnmL6y256jjBnMw=s150',
