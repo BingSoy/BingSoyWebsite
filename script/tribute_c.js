@@ -20,6 +20,27 @@ var arr = [
     imag:'https://static.planetminecraft.com/files/resource_media/screenshot/1233/Minecraft-Steve_2298245_3301833.jpg',
     chid:''},
   
+    {name:'House (TV Series 2004-2012)',
+    capt:'Life is pain',
+    desc:'Helped Bing Soy see that you can still help people, even when in pain or with a neurotic personality. It matters more to objectively help than to be perceived to be a help. Outstanding performance by Hugh Laurie.',
+    link:"https://www.youtube.com/watch?v=gsNUS7PaAP0",
+    imag:'http://housemd-guide.com/season4/4images/413house.jpg',
+    chid:''},
+  
+    {name:'Good Will Hunting (1997)',
+    capt:'It&apos;s not your fault',
+    desc:'Great performances by Matt Damon and Robin Williams. A dynamic where the both challenge each other, opening their hearts and minds. Helped Bing Soy see that they way people act can be largely defined by your childhood, and he is no exception. A degree of forgiveness for how you are due to others may help bring you some peace.',
+    link:"https://www.youtube.com/watch?v=ZQht2yOX9Js",
+    imag:'https://resizing.flixster.com/AaRRaFwjoYpgLJ8Ldijz3Az_z9o=/150x150/v2/https://flxt.tmsimg.com/assets/p20224_k_h9_aa.jpg',
+    chid:''},
+  
+    {name:'Pulp Fiction (1994)',
+    capt:'Step aside, Butch',
+    desc:'Amazing film, refreshing, bold cinematography. Directed by Quentin Tarantino.',
+    link:"https://www.youtube.com/watch?v=J3UyjlaBMcY",
+    imag:'https://img.hmv.co.jp/image/jacket/400/01/8/8/045.jpg',
+    chid:''},
+  
 ];
 var template = document.querySelector('#tmptri');
 for (var i = 0; i < arr.length; i++) {
