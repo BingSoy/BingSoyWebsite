@@ -93,7 +93,7 @@ var arr = [
     capt:'Dave from Boyinaband',
     desc:'Made very impactful music and shared some personal experiences with us. Also helped inspire Bing Soy to grow (or attempt to) grow flowing locks in the face of hair stigma.',
     link:"https://www.youtube.com/watch?v=LkfM-UK5BgM",
-    imag:'http://contactceleb.com/wp-content/uploads/2017/11/Boyina-band.jpg',
+    imag:'https://yt3.ggpht.com/ytc/AKedOLQrHyrcAJ15PBeCAzHk4AFcS0A1tyuk4xSXT1aG=s150',
     chid:'UCQ4FyiI_1mWI2AtLS5ChdPQ'},
   
     {name:'Bing Soy',
