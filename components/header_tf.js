@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
  <div class="cnav" id="myTopnav">
   <a class="index" href="https://bingsoy.com/tf2/">Home</a>
-  <a class="fixgame" href="fixgame">Fix Game</a>
+  <a class="fix-game" href="fix-game">Fix Game</a>
   <a class="about" href="about">About</a>
   <a href="https://www.youtube.com/channel/UCj5vCC_PuSuM8TqQKT9jGTQ" target="blank">YouTube&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
