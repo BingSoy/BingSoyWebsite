@@ -6,6 +6,13 @@ var arr = [
     imag:'http://talkwithcelebs.com/wp-content/uploads/2018/01/Muselk.jpg',
     chid:'UCd534c_ehOvrLVL2v7Nl61w'},
   
+    {name:'Uncle Dane',
+    capt:'Dane Kevin Cook',
+    desc:"Good TF2 videos. Helping revolutionize TF2 with a vision of what casual should be. Runs Uncletopia.",
+    link:"https://www.youtube.com/watch?v=WHvwijT2ss8",
+    imag:'https://static.wikia.nocookie.net/youtube/images/7/7b/Uncle_dane_irl.jpg',
+    chid:'UCu0PSyLD5p_J5osLk5UD0pw'},
+  
     {name:'VAVLIE TF2',
     capt:'💥🔫',
     desc:'Provided pyro jump education.',
@@ -26,13 +33,6 @@ var arr = [
     link:"https://www.youtube.com/watch?v=kHKJ9Mf8UxU",
     imag:'https://yt3.ggpht.com/ytc/AKedOLRkFQKMXVvqJyyldWdXAqTl66kuEeGtDmp9vo_dDA=s150',
     chid:'UCHlTEt24Yb4ylJFuWz7hXIw'},
-      
-    {name:'Uncle Dane',
-    capt:'Engineer Gaming',
-    desc:'Good TF2 videos. Uncletopia.',
-    link:"https://www.youtube.com/watch?v=WHvwijT2ss8",
-    imag:'https://yt3.ggpht.com/ytc/AKedOLQozqxRhM8D9S0pIa02pFzTkY_IpdI2VfdxHnQsXQ=s150',
-    chid:'UCu0PSyLD5p_J5osLk5UD0pw'},
   
 ];
 var template = document.querySelector('#tmptri');

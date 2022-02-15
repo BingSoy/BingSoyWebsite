@@ -30,7 +30,8 @@ var arr = [
   {name:'Bernard Hsu',
     capt:'Chubbyemu',
     desc:"Makes engaging, entertaining and digestable medical videos.",
-    link:"https://www.youtube.com/watch?v=LKNfFm0QDXQ", imag:'https://biographytribune.com/wp-content/uploads/2019/06/27892801_332988287195038_223293915199963136_n-300x300.jpg',
+    link:"https://www.youtube.com/watch?v=LKNfFm0QDXQ",
+    imag:'https://biographytribune.com/wp-content/uploads/2019/06/27892801_332988287195038_223293915199963136_n-300x300.jpg',
     chid:'UCKOvOaJv4GK-oDqx-sj7VVg'},
   
     {name:'Emezie Okorafor',
@@ -42,21 +43,14 @@ var arr = [
   
     {name:'Tyler Niknam',
     capt:'Trainwreckstv',
-    desc:"A man living his life. Strives for less double standards.",
+    desc:"A man living his life. Strives for less double standards. Genuine person.",
     link:"https://www.youtube.com/watch?v=uungwbbGipY",
     imag:'https://cdn.allfamous.org/people/headshots/trainwreckstv-8qx2-allfamous.org-6.jpg',
     chid:'UCbYVxiNJmsbhvlUmy4_JbXA'},
-  
-    {name:'Dane Kevin Cook',
-    capt:'Uncle Dane',
-    desc:"Helping revolutionize TF2 with a vision of what casual should be. Runs Uncletopia.",
-    link:"https://www.youtube.com/watch?v=WHvwijT2ss8",
-    imag:'https://static.wikia.nocookie.net/youtube/images/7/7b/Uncle_dane_irl.jpg',
-    chid:'UCu0PSyLD5p_J5osLk5UD0pw'},
     
     {name:'Leonard Simon Nimoy<sup>&nbsp;&dagger;</sup>',
     capt:'Spock',
-    desc:"Helped Bing Soy more so realize the power of logic through his performance of Spock. By joining logic and emotion, you become something magnificent. 🖖‍‍",
+    desc:"Helped Bing Soy more so realize the power of logic through his performance of Spock. By joining logic and emotion, you become something more and provide an air conducive to growth. 🖖‍‍",
     link:"https://www.youtube.com/watch?v=2vNBA8mHFf8",
     imag:'https://www.celebsfacts.com/wp-content/uploads/2019/03/Leonard-Nimoy.jpg',
     chid:''},
@@ -64,7 +58,7 @@ var arr = [
     {name:'Marcus Jamal Hopson',
     capt:'Hopsin',
     desc:"Ill mind.",
-    link:"https://www.youtube.com/watch?v=QBsA2ETp7JA",
+    link:"https://www.youtube.com/watch?v=eM9b5C26hvs",
     imag:'https://celebrityinside.com/wp-content/uploads/2020/09/Rapper-Hopsin.jpg',
     chid:'UCvlJkDfgfG3J38pup6lvrPg'},
   
@@ -91,10 +85,17 @@ var arr = [
   
     {name:'David Paul "Dave" Brown',
     capt:'Dave from Boyinaband',
-    desc:'Made very impactful music and shared some personal experiences with us. Also helped inspire Bing Soy to grow (or attempt to) grow flowing locks in the face of hair stigma.',
+    desc:'Made very impactful music and shared some personal experiences with us, especially regarding mental health. Also helped inspire Bing Soy to grow (or attempt to) grow flowing locks in the face of hair stigma.',
     link:"https://www.youtube.com/watch?v=LkfM-UK5BgM",
     imag:'https://yt3.ggpht.com/ytc/AKedOLQrHyrcAJ15PBeCAzHk4AFcS0A1tyuk4xSXT1aG=s150',
     chid:'UCQ4FyiI_1mWI2AtLS5ChdPQ'},
+
+    {name:'Louis Rossmann',
+    capt:'Right to Repair',
+    desc:'A man dedicated to his craft and going so far pursue the reform unfair repair laws through the "Right to Repair" movement. Being part of the change he wants to see in the world.<br /><a href="https://www.youtube.com/watch?v=sfrYOWlKJ_g" target="_blank">First Rossmann video Bing Soy watched</a><br /><a href="https://www.youtube.com/watch?v=7yFFBBFqe-E" target="_blank">An informative video Bing Soy liked</a><br /><a href="https://www.youtube.com/watch?v=hvhoVwGKE3U" target="_blank">Mr Clinton interview</a>',
+    link:"https://www.youtube.com/watch?v=Npd_xDuNi9k",
+    imag:'https://marriedceleb.com/uploads/biography/2021/2/19/Louis%20Rossmann%20(1)-1613712138578.jpg',
+    chid:'UCl2mFZoRqjw_ELax4Yisf6w'},
   
     {name:'Bing Soy',
     capt:'Bing Soy',
