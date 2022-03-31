@@ -124,11 +124,12 @@ text-decoration: none;
 .centertxt{
   text-align: center;}
 .index a.index,
-.fix-game a.fix-game,
+.fixgame a.fixgame,
 .about a.about,
 .subclass a.subclass,
-.thank-you a.thank-you,
+.thanks a.thanks,
 .tribute a.tribute,
+.timeline a.timeline,
 .c-tf2 a.c-tf2
 {
   background-color: #b79d0a;
