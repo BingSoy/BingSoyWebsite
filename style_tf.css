@@ -130,7 +130,8 @@ text-decoration: none;
 .thanks a.thanks,
 .tribute a.tribute,
 .timeline a.timeline,
-.c-tf2 a.c-tf2
+.c-tf2 a.c-tf2,
+.mods a.mods
 {
   background-color: #b79d0a;
   color: white;}
