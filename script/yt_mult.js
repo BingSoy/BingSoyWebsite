@@ -8,7 +8,7 @@ var arr = [
   
    {name:'Bing Soy Art',
     capt:'Drawing images',
-    desc:'Yet to dedicate time to learn intricate anatomy.<br /><a href="https://drawception.com/player/492654/bing-soy/" target="_blank">Drawception page (Might play more if thumbnails ever get fixed).</a>',
+    desc:'Yet to dedicate time to learn intricate anatomy.<br /><a href="https://drawception.com/player/492654/bing-soy/" target="_blank">Drawception page.</a>',
     link:"https://www.deviantart.com/bingsoy",
     imag:'https://cdn.drawception.com/images/avatars/492654-E27.png',
     chid:'UChohCastO1W7lrSNHC6BEXQ'},
