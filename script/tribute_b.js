@@ -1,8 +1,8 @@
 var arr = [
-   {name:'name',
-    capt:'capt',
-    desc:'desc',
-    link:"",
+   {name:'Black Salamander Games Team',
+    capt:'Need to update this image',
+    desc:'Together with cool people called Courage and Wonti, they worked together on a game called <a href="https://blacksalgames.wixsite.com/internetinvasion" target="_blank">&quot;Internet Invasion&quot;.</a>',
+    link:"https://www.youtube.com/watch?v=xcb4o5JjizI",
     imag:'images/placeholder.png',
     chid:''},
   

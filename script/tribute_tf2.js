@@ -34,6 +34,27 @@ var arr = [
     imag:'https://yt3.ggpht.com/ytc/AKedOLRkFQKMXVvqJyyldWdXAqTl66kuEeGtDmp9vo_dDA=s150',
     chid:'UCHlTEt24Yb4ylJFuWz7hXIw'},
   
+    {name:'elmaxo',
+    capt:'🏃‍♂️',
+    desc:'',
+    link:"https://www.youtube.com/watch?v=SjiU4cSxSP8",
+    imag:'https://yt3.ggpht.com/POgI4CVHY9THLW_8-8ZbdNDg54PvammWuaxtr5kS87awtKOcqJmFESyCDrFqy_rzHeglJndiGQ=s150',
+    chid:'UCVuyByFo6js2qeEIJQEzJfg'},
+    
+    {name:'KnowZero',
+    capt:'🧊',
+    desc:'',
+    link:"https://www.youtube.com/watch?v=kzi9qbQ-x8s",
+    imag:'https://yt3.ggpht.com/ClNDkkyz7_nDlI6kVh1s27bVZZvoHMhijJs6gPpdH2VmP8Ewmb0j2NAHOFhaEKF0mZSUBS-XVA=s150',
+    chid:'UCeAKfR1pNji9-6chKb6e-6Q'},
+      
+    {name:'Corey',
+    capt:'💡',
+    desc:'',
+    link:"https://www.youtube.com/watch?v=5MlTjLLFmCk",
+    imag:'https://yt3.ggpht.com/x8cb9xwgp2uVc77o1uhyNwKLya0GVkg2CURbTDphinnNEtOgmJuGLlVdGmSkyESKSHfE3Op7=s150',
+    chid:'UC99m6tnWBWpz6hPcNPrWGJA'},
+  
 ];
 var template = document.querySelector('#tmptri');
 for (var i = 0; i < arr.length; i++) {
