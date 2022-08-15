@@ -35,7 +35,7 @@ var arr = [
     chid:'UCHlTEt24Yb4ylJFuWz7hXIw'},
   
     {name:'elmaxo',
-    capt:'🏃‍♂️',
+    capt:'📻',
     desc:'',
     link:"https://www.youtube.com/watch?v=SjiU4cSxSP8",
     imag:'https://yt3.ggpht.com/POgI4CVHY9THLW_8-8ZbdNDg54PvammWuaxtr5kS87awtKOcqJmFESyCDrFqy_rzHeglJndiGQ=s150',

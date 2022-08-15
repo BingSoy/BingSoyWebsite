@@ -163,6 +163,14 @@ a.btn:active {
     color: #FFF7B7;
     background-color: #b79d0a;
 }
+/*HIDE THING*/
+.hide {
+  display: none;
+}
+    
+.hideThing:hover + .hide {
+  display: block;
+}
 /*TRIBUTE STYLE*/
 ul.navt {
   padding-left: 0px;
