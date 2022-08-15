@@ -3,7 +3,7 @@ var arr = [
     capt:'Free Team Fortress 2',
     desc:'TF2 videos.<br />Could it be? Could this be a channel Bing Soy can maintain? Can this channel help the rest? Does he belong here?',
     link:"https://www.youtube.com/watch?v=JYrsXEwRk9k",
-    imag:'https://yt3.ggpht.com/n1Fi4q_Z_m-FDEbivzbcEBfxsnxpDc3PrHOcN9POJbtNHdoaATIryTTBpCyNScAS5RGCV3DYOQ=s150',
+    imag:'https://yt3.ggpht.com/amkZrRmFdZFs1xRTl9L0cKzGm9xBsMZ3p_ryBIl4KiWIBzxZCYmxHRw5BRX8Wzm1YMidJe13=s150',
     chid:'UCj5vCC_PuSuM8TqQKT9jGTQ'},
   
    {name:'Bing Soy Monster Hunter<sup>&nbsp;👶</sup>',
