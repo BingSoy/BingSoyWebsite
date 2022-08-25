@@ -241,6 +241,7 @@ a:active {/* selected link */
 /*list*/
 li{
 margin: 5px 0px 5px 0px;
+line-height: 1.2;
 }
 
 .cnav {
