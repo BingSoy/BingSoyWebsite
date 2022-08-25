@@ -132,7 +132,8 @@ text-decoration: none;
 .timeline a.timeline,
 .c-tf2 a.c-tf2,
 .mods a.mods,
-.scoring a.scoring
+.scoring a.scoring,
+.faq a.faq
 {
   background-color: #b79d0a;
   color: white;}
