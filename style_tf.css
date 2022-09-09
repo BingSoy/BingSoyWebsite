@@ -29,6 +29,13 @@
   font-style: normal;
   src: url('/fonts/tf2build.ttf');
 }
+
+@font-face {
+  font-family: 'TF2 Secondary';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/TF2secondary.ttf');
+}
 /*//////////////////// MAIN ////////////////////////*/
 body, footer {
   background-color: #261812;
@@ -50,7 +57,7 @@ footer {
   text-align: center;}
 ul, ol{
   margin-left:7%;
-  font-family: "Arial";;
+  font-family: "Arial";
   font-size:15px}
 li{
 margin: 2px 2px auto auto;
@@ -65,6 +72,23 @@ tr:nth-child(even) {
 }
 ul{
     margin:14px;
+}
+summary {
+  font-family: "Arial";
+  color: #F3A957;
+  font-size:19px
+}
+ul > details > summary {
+  font-family: "Arial";
+  color: #F3A957;
+  font-size:16px;
+  line-height: 1.5;
+}
+/*Removing;Redundancy*/
+.text {
+  /*padding: 0vh 2.5vw;*/}
+p, h2, h3, h4, h5, ul, span > details {
+  padding: 0vh 2.5vw;
 }
 /*/////////////////////// HEADINGS //////////////////////////////*/
 h1 {
@@ -110,8 +134,44 @@ text-decoration: none;
   margin:5px auto 5px auto;
 }
 /*///////////////////// CLASS ///////////////////////////////*/
-.text {
-  padding: 0vh 2.5vw;}
+/*itemtooltipthing*/
+.iattYe {
+    font-family:  "TF2 Secondary";
+    font-size: 1.2em;
+    color: #99CCFF;
+}
+
+.iattNo {
+    font-family:  "TF2 Secondary";
+    font-size: 1.2em;
+    color: #FF4040;
+}
+
+.iattOG {
+    font-family:  "TF2 Secondary";
+    font-size: 1.2em;
+    color: #a5a5a5;
+}
+
+.iattTP {
+    font-size: 1.2em;
+}
+
+.p_iattAd {
+  display: inline;
+  padding:none;
+  font-size: 1.2em;
+  color: #edb4fd;
+}
+li > span.tp {
+  color:greenyellow;
+  font-family:  "Courier New", sans-serif;
+  font-style: italic;
+}
+li > span.orig {
+  font-family:  "Courier New", sans-serif;
+}
+
 .border {
   border-style: solid;
   border-color: #fff;
@@ -137,10 +197,8 @@ text-decoration: none;
 {
   background-color: #b79d0a;
   color: white;}
-.ptext{
-  /*padding: 0vh 2.5vw;*/}
 a.btn {
-  font-family:  "Courier New", sans-serif;
+  font-family:  "Courier New", san-serif;
   font-size:1.2em;
   font-weight: bold;
   border-radius: 5px;
