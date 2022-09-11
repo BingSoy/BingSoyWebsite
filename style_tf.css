@@ -136,7 +136,8 @@ text-decoration: none;
 /*GALLERY*/
 /**/
 .spinny:hover{
-    animation: rotate 1s linear;
+    animation: rotate 0.2s linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rotate{
