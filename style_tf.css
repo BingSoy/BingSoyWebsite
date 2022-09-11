@@ -133,6 +133,23 @@ text-decoration: none;
   line-height: 1.1;
   margin:5px auto 5px auto;
 }
+/*GALLERY*/
+/**/
+.spinny:hover{
+    animation: rotate 1s linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 /*///////////////////// CLASS ///////////////////////////////*/
 /*itemtooltipthing*/
 .iattYe {
