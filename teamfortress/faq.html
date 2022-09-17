@@ -84,6 +84,31 @@ Lawena Recording Tool </a></li>
     <a href="https://youtu.be/KYwA5k00p2I?t=70" target="_blank">No.</a>
   </p>-->
   
+
+
+<a href="javascript:openSite()" target="_blank">Click to go to a random site</a>
+<script>
+var links = [
+          "google.com",
+          "youtube.com",
+          "reddit.com",
+          "apple.com"]
+
+function openSite() {
+    // get a random number between 0 and the number of links
+    var randIdx = Math.random() * links.length;
+    // round it, so it can be used as array index
+    randIdx = parseInt(randIdx, 10);
+    // construct the link to be opened
+    var link = 'http://' + links[randIdx];
+        return link;
+};
+
+document.getElementById("link").innerHTML = openSite();
+</script>
+
+
+  
 </div>
   <footer><f-copy></f-copy><f-main></f-main></footer>
 </body>
