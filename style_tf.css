@@ -152,6 +152,18 @@ text-decoration: none;
     }
 }
 /*///////////////////// CLASS ///////////////////////////////*/
+ul.tltp > li {
+  
+        border-left: 5px solid #99CCFF;
+        list-style-type: none;
+        padding: 2px 5px;
+  
+}
+.tltp2 {
+  
+        border-left: 5px dotted #FF4040 !important;
+  
+}
 /*itemtooltipthing*/
 .iattYe {
     font-family:  "TF2 Secondary";
@@ -273,6 +285,10 @@ border-style: solid;
   border-color: white;
   border-width: thin;
 }
+
+.dotline {
+  border-bottom: 1px dotted;
+}
 /**/
 /*/////////////////// ID ///////////////////////////*/
 #titlename {
@@ -280,7 +296,9 @@ border-style: solid;
 }
 /*/////////// LINKS /////////////////*/
 a:link {/*unvisited link*/
-  color: #FFA947;}
+  color: #FFA947;
+target:"_blank";
+}
 a:visited {/* visited link */
   color: #FFA947;}
 a:hover {/* mouse over link */
