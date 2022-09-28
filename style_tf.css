@@ -310,6 +310,9 @@ a:active {/* selected link */
   text-decoration: none;
   color: #fff !important;
 }
+.transparent {
+  opacity: 0.2;
+}
 /*///// NAVBAR CAT //////////////////////*/
 .cnav2{
   list-style:none;
