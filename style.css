@@ -67,6 +67,9 @@ h4#subtitle{
 /*///////////////////// CLASS ///////////////////////////////*/
 .text {
   padding: 0vh 2.5vw;}
+p, h2, h3, h4, h5, ul, span > details {
+  padding: 0vh 2.5vw;
+}
 .border {
   border-style: solid;
   border-color: #fff;
@@ -91,8 +94,6 @@ h4#subtitle{
 {
   background-color: lightgray;
   color: black;}
-.ptext{
-  /*padding: 0vh 2.5vw;*/}
 a.btn {
   font-family:  "Courier New", sans-serif;
   font-size:1.2em;
