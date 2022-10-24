@@ -41,12 +41,44 @@ urls[11] = "https://youtu.be/a5uQMwRMHcs";
 urls[12] = "https://youtu.be/mOpMhYGPajU";
 urls[13] = "https://bestdeagleworld.com/";
 urls[14] = "https://youtu.be/4uE-tqe0xsQ";
+urls[15] = "https://youtu.be/c9UlQlJzuHY";//RFB
+urls[16] = "https://bingsoywip.blogspot.com/";
+urls[17] = "https://youtube.fandom.com/wiki/Bing_Soy";
+urls[18] = "https://en.wikipedia.org/wiki/Bing_Soy";
+urls[19] = "https://youtu.be/3_rBtn-bpKE";//PC
 //no cheating!
 var random = Math.floor(Math.random()*urls.length);
 
 window.location = urls[random];
 </script>
 
+
+<script>
+//ANTICHEAT
+//https://stackoverflow.com/questions/20372394/how-to-disable-ctrlu-using-javascript
+document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            return false;
+        } else {
+            return true;
+        }
+};
+$(document).keypress("u",function(e) {
+  if(e.ctrlKey)
+  {
+return false;
+}
+else
+{
+return true;
+}
+});
+</script>
+  
   
   <br />
   <a href="https://www.youtube.com/watch?v=mHLVDFbAPOQ" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhskNaKjnShk%2Fhqdefault.jpg&f=1&nofb=1" alt="Bing Soy" class="center"></a>
