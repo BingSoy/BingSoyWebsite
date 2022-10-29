@@ -24,6 +24,10 @@ class Div2 extends HTMLElement {
     Second Channel&nbsp;
     <i class="fas fa-external-link-alt"></i>
   </a>
+<a href="https://bingsoyteamfortress.blogspot.com/" target="blank">
+    Blog&nbsp;
+    <i class="fas fa-external-link-alt"></i>
+  </a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
