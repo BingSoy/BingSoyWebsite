@@ -36,6 +36,13 @@
   font-style: normal;
   src: url('/fonts/TF2secondary.ttf');
 }
+
+@font-face {
+  font-family: 'Twemoji Mozilla';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/TwemojiMozilla.ttf');
+}
 /*//////////////////// MAIN ////////////////////////*/
 body, footer {
   background-color: #261812;
