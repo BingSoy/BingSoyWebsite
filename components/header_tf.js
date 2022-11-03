@@ -13,6 +13,10 @@ class Header extends HTMLElement {
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+  <a href="https://www.youtube.com/channel/UCXeVMuFXaP4juglhff4a3tQ" target="blank">
+    YT 2nd&nbsp;
+    <i class="fas fa-external-link-alt"></i>
+  </a>
  </div>
     `;
   }

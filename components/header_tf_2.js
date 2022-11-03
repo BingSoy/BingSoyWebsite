@@ -20,10 +20,6 @@ class Div2 extends HTMLElement {
   <a class="" href="https://gamebanana.com/members/2048161" target="_blank">
     <i>GameBanana</i>&nbsp;<i class="fas fa-external-link-alt"></i>
   </a>
-  <a href="https://www.youtube.com/channel/UCXeVMuFXaP4juglhff4a3tQ" target="blank">
-    Second Channel&nbsp;
-    <i class="fas fa-external-link-alt"></i>
-  </a>
 <a href="https://bingsoyteamfortress.blogspot.com/" target="blank">
     Blog&nbsp;
     <i class="fas fa-external-link-alt"></i>
