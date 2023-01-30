@@ -64,6 +64,9 @@ h4#subtitle{
   font-family:  "Courier New", sans-serif;
   margin: auto
 }
+.dotline {
+  border-bottom: 1px dotted;
+}
 /*///////////////////// CLASS ///////////////////////////////*/
 .text {
   padding: 0vh 2.5vw;}
