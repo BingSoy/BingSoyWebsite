@@ -9,7 +9,7 @@ class Div2 extends HTMLElement {
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-<a href="https://steamid.io/lookup/76561198057093383" target="_blank" title="look at that he finally put a more obvious link to his steam, still people might be unaware and go off the pfp only. open console > status, compare id or steam overlay and look at url 'bingsoy', good idea to verify before calling someone fake if even needed in first place. are you real? (also put on youtube steam link, now easier for people not call fake, but why need call fake anyway? maybe if scammer but why? important life lesson, at very least make sure you yourself i know you real)">
+<a href="https://steamid.io/lookup/76561198057093383" target="_blank" title="look at that he finally put a more obvious link to his steam, still people might be unaware and go off the pfp only. open console > status, compare id or steam overlay and look at url 'bingsoy', good idea to verify before calling someone fake if even needed in first place. are you real? (also put on youtube steam link, now easier for people not call fake, but why need call fake anyway? maybe if scammer but why? important life lesson, at very least make sure you yourself i know you real) does it matter anyway, even if had a easier unique identifier like notch hat? lets say that happens (requires immense work and basic decency/accountability, esp when it matters as some sort of 'public figure' (can be hard for some), but still human not greater.">
     REAL BING SOY ON STEAM&nbsp;
     <i class="fas fa-external-link-alt"></i>
   </a>
