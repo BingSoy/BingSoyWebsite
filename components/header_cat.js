@@ -10,7 +10,7 @@ class Div extends HTMLElement {
   <a class="c-art" href="https://www.deviantart.com/bingsoy" target="_blank">ART&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a class="c-music" href="https://bingsoy.bandcamp.com/" target="_blank">MUSIC&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a class="c-anims" href="https://www.youtube.com/BingSoyAnimations" target="_blank">ANIMATIONS&nbsp;<span class="fas fa-external-link-alt"></span></a>
-  <a class="c-games" href="https://bingsoy.com/games/" target="_blank">GAMES&nbsp;</a>
+  <a class="c-games" href="https://bingsoy.com/games/">GAMES&nbsp;</a>
   |
   <a class="c-tf2" href="https://bingsoy.com/teamfortress/">TF2</a>
   |
