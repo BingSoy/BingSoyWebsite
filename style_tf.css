@@ -275,7 +275,8 @@ li > span.orig {
 .c-tf2 a.c-tf2,
 .mods a.mods,
 .scoring a.scoring,
-.faq a.faq
+.faq a.faq,
+.verify a.verify
 {
   background-color: #b79d0a;
   color: white;}
