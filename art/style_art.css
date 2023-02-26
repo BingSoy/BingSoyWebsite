@@ -1,6 +1,6 @@
 /*//////////////////// MAIN ////////////////////////*/
 body, footer {
-  background-color: #0f0f0f;
+  background-color: #19140f;
   color: white;}
 .bodydiv {
   background-color: #212121;
@@ -93,7 +93,7 @@ p, h2, h3, h4, h5, ul, span > details {
 .tribute-b a.tribute-b,
 .tribute-c a.tribute-c,
 .credits a.credits,
-.c-games a.c-games
+.c-art a.c-art
 {
   background-color: lightgray;
   color: black;}
