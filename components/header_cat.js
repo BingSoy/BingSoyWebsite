@@ -15,7 +15,7 @@ class Div extends HTMLElement {
 </style>
  <div class="cnav2" id="myTopnav2">
   <a class="c-main" href="https://bingsoy.com">MAIN</a>|
-  <a class="c-art catcolArt" href="https://bingsoy.com/art/" target="_blank">ART</a>
+  <a class="c-art catcolArt" href="https://bingsoy.com/art/">ART</a>
   <a class="c-music catcolArt" href="https://bingsoy.bandcamp.com/" target="_blank">MUSIC&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a class="c-anims catcolArt" href="https://www.youtube.com/BingSoyAnimations" target="_blank">ANIMATIONS&nbsp;<span class="fas fa-external-link-alt"></span></a>
   <a class="c-games catcolGamedev" href="https://bingsoy.com/games/">GAMES&nbsp;</a>
