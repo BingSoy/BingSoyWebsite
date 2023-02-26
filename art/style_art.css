@@ -1,0 +1,386 @@
+/*//////////////////// MAIN ////////////////////////*/
+body, footer {
+  background-color: #0f0f0f;
+  color: white;}
+.bodydiv {
+  background-color: #212121;
+  margin: 1.5vh auto 1.5vh;
+  width: 60%;
+  padding: 1.5vh 0px 1px;}
+@media screen and (max-width: 1440px) {
+  .bodydiv
+    {width:80%;}}
+@media screen and (max-width: 800px) {
+  .bodydiv
+    {width:100%;}}
+footer {
+  text-align: center;}
+ul {
+  margin-left:7%;
+  font-family: "Calibri";}
+p {
+  font-family: "Calibri";}
+tr:nth-child(even) {
+  background-color: #222;
+}
+/*/////////////////////// HEADINGS //////////////////////////////*/
+h1 {
+  color: white;
+  font-family:  "Arial Black", sans-serif;
+  margin: auto;}
+h2 {
+  color: white;
+  font-family:  "Arial Black", sans-serif;
+  margin: auto;}
+h3 {
+  color: white;
+  font-family:  "Arial Black", sans-serif;
+  margin: auto;}
+h4 {
+  color: white;
+  font-family: 'Times New Roman', serif;
+  font-size:20px;
+  margin: auto;}
+h5 {
+  color: white;
+  font-family:  "Times New Roman";
+  font-style: italic;
+  margin: auto;}
+hr{
+width: 30%;
+  color:gray;
+}
+table, th, td {
+  font-family: "Calibri";}
+  border: 1px solid #999;
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+table {
+  background-color: #111;
+}
+h4#subtitle{
+  color: white;
+  font-family:  "Courier New", sans-serif;
+  margin: auto
+}
+.dotline {
+  border-bottom: 1px dotted;
+}
+/*///////////////////// CLASS ///////////////////////////////*/
+.text {
+  padding: 0vh 2.5vw;}
+p, h2, h3, h4, h5, ul, span > details {
+  padding: 0vh 2.5vw;
+}
+.border {
+  border-style: solid;
+  border-color: #fff;
+  border-width:3px;
+  background-color: #fff;}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+.centertxt{
+  text-align: center;}
+.index a.index,
+.about a.about,
+.socials a.socials,
+.projects a.projects,
+.donate a.donate,
+.tribute-a a.tribute-a,
+.tribute-b a.tribute-b,
+.tribute-c a.tribute-c,
+.credits a.credits,
+.c-games a.c-games
+{
+  background-color: lightgray;
+  color: black;}
+a.btn {
+  font-family:  "Courier New", sans-serif;
+  font-size:1.2em;
+  font-weight: bold;
+  border-radius: 5px;
+  border:1px solid #F7DC4F;
+  background-color:#444;
+  padding: 5px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  margin: 0;
+}
+.cnav3 {
+  background-color: #333333;
+  overflow: hidden;}
+.cnav4 {
+  background-color: #111;
+  overflow: hidden;}
+a.btn:hover {
+    background-color: white;
+}
+a.btn:active {
+    color: #FFF7B7;
+    background-color: #b79d0a;
+}
+.hiddenlink {
+  text-decoration: none;
+  color: #fff !important;
+}
+/*/////////////////// ID ///////////////////////////*/
+#titlename {
+  font-size: 4em;
+}
+.qwf{
+ display: inline;
+}
+#banana {
+}
+/*/////////// LINKS /////////////////*/
+a:link {/*unvisited link*/
+  color: #DDD;}
+a:visited {/* visited link */
+  color: #DDD;}
+a:hover {/* mouse over link */
+  color: white;}
+a:active {/* selected link */
+  color: white;}
+a > img:hover {
+  /*background-color: black;*/
+}
+/*///// NAVBAR MAIN /////////////////*/
+.cnav {
+  list-style:none;
+  margin:0;
+  padding:0;
+  font-size:1.8em;
+  text-align:center;
+  background-color: #333333;
+  overflow: hidden;}
+.cnav a {
+  display:inline-block;
+  padding:10px;
+  text-decoration: none;
+  font-family:  "Arial Black", sans-serif;}
+.cnav a:hover {
+  background-color: #ddd;
+  color: black;}
+.cnav a.active {
+  background-color: lightgray;
+  color: white;}
+.cnav .icon {
+  display: none;}
+/*//// RESPONSIVE /////////*/
+@media screen and (max-width: 700px) {
+  .cnav a:not(:first-child) {display: none;}
+  .cnav a.icon {
+    float: right;
+    display: block;}}
+@media screen and (max-width: 700px) {
+.cnav.responsive {position: relative;}
+.cnav.responsive .icon {
+  position: absolute;
+  right: 0;
+ top: 0;}
+.cnav.responsive a {
+ float: none;
+  display: block;
+  text-align: left;}
+.cnav {
+    text-align: left;}}
+@media screen and (max-width: 700px) {
+  .cnav a:not(:first-child) {display: none;}
+  .cnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 700px) {
+  .cnav.responsive {position: relative;}
+  .cnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;  }
+  .cnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;}
+  .cnav {
+      text-align: left;}
+  ul.nav > li {
+      display: inline-block;
+      padding: 30px 40px;}
+}
+/*///// NAVBAR CAT //////////////////////*/
+.cnav2{
+  list-style:none;
+  margin:0;
+  padding:0;
+  font-size:0.8em;
+  text-align:center;
+  background-color: #222222;
+  overflow: hidden;}
+.cnav2 a {
+  color: white;
+  display:inline-block;
+  padding:5px 10px;
+  text-decoration: none;
+  font-family:  "Verdana", sans-serif;line-height:10px}
+.cnav2 a:hover {
+  background-color: #ddd;
+  color: black;}
+.cnav2 a.active {
+  background-color: #ffffff;
+  color: white;}
+.cnav2 .icon {
+  display: none;}
+/*///// NAVBAR THREE 33333 //////////////////////*/
+.cnav3{
+  list-style:none;
+  margin:0;
+  padding:0;
+  font-size:0.8em;
+  text-align:center;
+  background-color: #222;
+  overflow: hidden;}
+.cnav3 a {
+  display:inline-block;
+  padding:5px 10px;
+  text-decoration: none;
+  font-family:  "Verdana", sans-serif;line-height:10px}
+.cnav3 a:hover {
+  background-color: #ddd;
+  color: black;}
+.cnav3 a.active {
+  background-color: #b79d0a;
+  color: white;}
+.cnav3 .icon {
+  display: none;}
+/*////////////SOCIAL YT CSS///////////////*/
+.bss {
+  background: url("images/spr_bingsoy.png") no-repeat;
+  width: 96px;
+  height: 96px;
+  display: inline-block;
+  image-rendering: crisp-edges;/* Firefox */
+  image-rendering: pixelated;/* Chromium + Safari */
+  /*transform: scale(2);*/}  
+@media only screen and (min-width: 1000px) {
+bss {
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);}}
+.bss_1-1 {
+  background-position: -0px -0px;}
+.bss_1-1:hover {
+  background-position: -96px -0px;}
+.bss_1-2 {
+  background-position: -192px -0px;}
+.bss_1-2:hover {
+  background-position: -288px -0px;}
+.bss_1-3 {
+  background-position: -384px -0px;}
+.bss_1-3:hover {
+  background-position: -480px -0px;}
+.bss_1-4 {
+  background-position: -576px -0px;}
+.bss_1-4:hover {
+  background-position: -672px -0px;}
+.bss_1-5 {
+  background-position: -768px -0px;}
+.bss_1-5:hover {
+  background-position: -864px -0px;}
+.bss_2-1 {
+  background-position: -0px -96px;}
+.bss_2-1:hover {
+  background-position: -96px -96px;}
+.bss_2-2 {
+  background-position: -192px -96px;}
+.bss_2-2:hover {
+  background-position: -288px -96px;}
+.bss_2-3 {
+  background-position: -384px -96px;}
+.bss_2-3:hover {
+  background-position: -480px -96px;}
+.bss_2-4 {
+  background-position: -576px -96px;}
+.bss_2-4:hover {
+  background-position: -672px -96px;}
+.bss_2-5 {
+  background-position: -768px -96px;}
+.bss_2-5:hover {
+  background-position: -864px -96px;}
+.bss_3-1 {
+  background-position: -0px -192px;}
+.bss_3-1:hover {
+  background-position: -96px -192px;}
+.bss_3-2 {
+  background-position: -192px -192px;}
+.bss_3-2:hover {
+  background-position: -288px -192px;}
+ul.nav {
+  padding-left: 0px;
+  text-align: center;
+}
+ul.navm {
+  padding-left: 0px;
+  text-align: center;
+}
+ul.navm > li {
+  display: inline-block;
+  padding: 0px 0px;
+}
+/*TRIBUTE STYLE*/
+ul.navt {
+  padding-left: 0px;
+  text-align: left;
+}
+ul.navt > li {
+  display: inline-block;
+  margin: auto;
+  padding: 0px 0px;
+  vertical-align: top;
+}
+.lululu{
+  width: 40vw;
+}
+.imag{
+  width:150px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: thin;
+}
+.itit{
+border-style: solid;
+  border-color: white;
+  border-width: thin;
+}
+/**/
+ul.nav > li {
+  display: inline-block;
+  padding: 10px 5px;
+}
+ul.nav > li:hover {
+}
+.linknodec {
+  text-decoration: none;
+}
+/*Color shift thing*/
+.colshift {
+  position: relative;
+  animation: mymove 20s infinite;
+  animation-timing-function: linear;}
+.grayscale {
+  position: relative;
+  animation: mymove2 0.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function:cubic-bezier(1, 0.1, 0.5, 1);}
+@keyframes mymove {
+from {filter: hue-rotate(0deg);}
+  to {filter: hue-rotate(360deg);}}
+@keyframes mymove2 {
+from {filter: grayscale(100%);}
+  to {filter: grayscale(0%);}}

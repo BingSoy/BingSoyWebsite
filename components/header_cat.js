@@ -7,7 +7,7 @@ class Div extends HTMLElement {
     this.innerHTML = `
  <div class="cnav2" id="myTopnav2">
   <a class="c-main" href="https://bingsoy.com">MAIN</a>|
-  <a class="c-art" href="https://www.deviantart.com/bingsoy" target="_blank">ART&nbsp;<i class="fas fa-external-link-alt"></i></a>
+  <a class="c-art" href="https://bingsoy.com/art/" target="_blank">ART&nbsp;</a>
   <a class="c-music" href="https://bingsoy.bandcamp.com/" target="_blank">MUSIC&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a class="c-anims" href="https://www.youtube.com/BingSoyAnimations" target="_blank">ANIMATIONS&nbsp;<span class="fas fa-external-link-alt"></span></a>
   <a class="c-games" href="https://bingsoy.com/games/">GAMES&nbsp;</a>
