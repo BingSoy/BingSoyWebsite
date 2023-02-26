@@ -9,7 +9,7 @@ T
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-<a class="verify" href="verify" target="_blank">
+<a class="verify" href="verify">
     VERIFY REAL BING SOY&nbsp;
     <i class="fas fa-external-link-alt"></i>
   </a>
