@@ -18,7 +18,7 @@ class Div extends HTMLElement {
   <a class="c-art catcolArt" href="https://bingsoy.com/art/">ART</a>
   <a class="c-music catcolArt" href="https://bingsoy.bandcamp.com/" target="_blank">MUSIC&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a class="c-anims catcolArt" href="https://www.youtube.com/BingSoyAnimations" target="_blank">ANIMATIONS&nbsp;<span class="fas fa-external-link-alt"></span></a>
-  <a class="c-games catcolGamedev" href="https://bingsoy.com/games/">GAMES&nbsp;</a>
+  <a class="c-games catcolGamedev" href="https://bingsoy.com/games/">GAMES</a>
   |
   <a class="c-tf2 catcolGame" href="https://bingsoy.com/teamfortress/">TF2</a>
   |
