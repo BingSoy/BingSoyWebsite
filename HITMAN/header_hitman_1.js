@@ -8,7 +8,7 @@ class Header extends HTMLElement {
  <div class="cnav" id="myTopnav">
   <a class="index" href="https://bingsoy.com/HITMAN/">Home</a>
   <a class="about" href="about">About</a>
-  <a class="mods" href="about">Mods</a>
+  <a class="mods" href="mods">Mods</a>
 
   <a href="https://www.youtube.com/@BingSoyHITMAN" target="blank">YouTube&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">

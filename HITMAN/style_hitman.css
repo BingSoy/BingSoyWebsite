@@ -123,14 +123,8 @@ p, h2, h3, h4, h5, ul, span > details {
   text-align: center;}
 .index a.index,
 .about a.about,
-.socials a.socials,
-.projects a.projects,
-.donate a.donate,
-.tribute-a a.tribute-a,
-.tribute-b a.tribute-b,
-.tribute-c a.tribute-c,
-.credits a.credits,
-.c-art a.c-art
+.mods a.mods,
+.glossary a.glossary
 {
   background-color: lightgray;
   color: black;}

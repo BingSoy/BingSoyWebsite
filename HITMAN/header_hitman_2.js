@@ -10,7 +10,7 @@ class Div2 extends HTMLElement {
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-  <a class="faq" href="glossary">Glossary</a>
+  <a class="glossary" href="glossary">Glossary</a>
 
   <a class="" href="https://youtu.be/0K2JYq58ZxM" target="_blank">
     <i>Always online discussion</i>&nbsp;<i class="fas fa-external-link-alt"></i>
