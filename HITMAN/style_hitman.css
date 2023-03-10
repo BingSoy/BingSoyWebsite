@@ -95,7 +95,8 @@ table, th, td {
 table {
   background-color: #111;
 }
-h4#subtitle{
+/*h4#*/
+.subtitle{
   color: white;
   font-family:  'Roboto', sans-serif;
   font-weight: 300;
