@@ -123,6 +123,7 @@ p, h2, h3, h4, h5, ul, span > details {
   text-align: center;}
 .index a.index,
 .about a.about,
+.qol a.qol,
 .mods a.mods,
 .glossary a.glossary
 {
