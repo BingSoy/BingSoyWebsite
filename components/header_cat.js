@@ -21,7 +21,7 @@ class Div extends HTMLElement {
   <a class="c-games catcolGamedev" href="https://bingsoy.com/games/">GAMES</a>
   |
   <a class="c-tf2 catcolGame" href="https://bingsoy.com/teamfortress/">TF2</a>
-  <a class="c-tf2 catcolGame" href="https://bingsoy.com/HITMAN/">HITMAN</a>
+  <a class="c-hitman catcolGame" href="https://bingsoy.com/HITMAN/">HITMAN</a>
   |
   <a class="c-phi catcolInfo" href="https://bingsoy.com/philosophy/">Φ</a>
   |

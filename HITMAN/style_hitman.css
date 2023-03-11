@@ -126,7 +126,8 @@ p, h2, h3, h4, h5, ul, span > details {
 .about a.about,
 .qol a.qol,
 .mods a.mods,
-.glossary a.glossary
+.glossary a.glossary,
+.c-hitman a.c-hitman
 {
   background-color: lightgray;
   color: black;}
