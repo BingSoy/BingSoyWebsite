@@ -6,7 +6,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
  <div class="cnav" id="myTopnav">
-  <a class="index" href="https://bingsoy.com/teamfortress/">Home</a>
+  <a class="index" href="https://bingsoy.com/gaming/teamfortress/">Home</a>
   <a class="about" href="about">About</a>
   <a class="mods" href="mods">Mods</a>
   <a href="https://www.youtube.com/@BingSoyTeamFortress" target="blank">YouTube&nbsp;<i class="fas fa-external-link-alt"></i></a>

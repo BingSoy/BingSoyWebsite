@@ -21,27 +21,27 @@
   font-family: 'Impact';
     font-weight: normal;
     font-style: normal;
-  src: url('/fonts/impact.ttf');
+  src: url('/resFonts/impact.ttf');
 }
 @font-face {
   font-family: 'TF2 Build';
   font-weight: normal;
   font-style: normal;
-  src: url('/fonts/tf2build.ttf');
+  src: url('/resFonts/tf2build.ttf');
 }
 
 @font-face {
   font-family: 'TF2 Secondary';
   font-weight: normal;
   font-style: normal;
-  src: url('/fonts/TF2secondary.ttf');
+  src: url('/resFonts/TF2secondary.ttf');
 }
 
 @font-face {
   font-family: 'Twemoji Mozilla';
   font-weight: normal;
   font-style: normal;
-  src: url('/fonts/TwemojiMozilla.ttf');
+  src: url('/resFonts/TwemojiMozilla.ttf');
 }
 /*//////////////////// MAIN ////////////////////////*/
 body, footer {
