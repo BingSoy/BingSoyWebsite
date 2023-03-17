@@ -1,3 +1,4 @@
+/*NO ANTI-ALIAS*/
 img.noalias { 
     image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
     image-rendering: -moz-crisp-edges;          /* Firefox                        */
@@ -19,8 +20,10 @@ img.noalias {
 ========================*/
 
 /*DROPDOWN IN CAT*/
-.navbarDD, .dropbtnDD {
-  overflow: hidden;
+/*.navbarDD, .dropbtnDD {*/
+.navbarDD {
+  /*THIS HIDES OVERFLOW!!!!!! BUT ALSO MAKES ICON APPEAR PROPERLY!!!!!!*/
+/*  overflow: hidden;*/
   background-color: #333;
   font-family: "Courier New";}
 
@@ -94,7 +97,7 @@ img.noalias {
 .cnavNEW a.active {}
 */
 
-/*//// RESPONSIVE /////////*/
+/*//// RESPONSIVE CAT /////////*/
 
 
 /*TO DO: DON'T HIDE OVERFLOW
@@ -102,9 +105,19 @@ CENTER NAVBAR
 */
 
 
-/*ALIGN LEFT WHILE ZOOMED IN*/
+
 @media screen and (min-width: 700px){
-.dropdownDD {float: left;}
+/*  .dropdownDD {float: left;}*/
+  /*CENTER WHILE ZOOMED OUT*/
+  .navbarDD {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size:0.8em;
+    white-space: nowrap;
+  }
 }
 
 /*HIDE ICON*/
