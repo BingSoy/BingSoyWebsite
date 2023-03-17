@@ -6,7 +6,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
  <div class="cnav" id="myTopnav">
-  <a class="index" href="https://bingsoy.com/HITMAN/">Home</a>
+  <a class="index" href="https://bingsoy.com/gaming/hitman/">Home</a>
   <a class="about" href="about">About</a>
   <a class="qol" href="qol">QoL</a>
   <a class="mods" href="mods">Mods</a>
