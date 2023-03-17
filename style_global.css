@@ -1,0 +1,145 @@
+img.noalias { 
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Universal support since 2021   */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+/*MAKE SNUG*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*========================
+  MAIN CATEGORIES NAVBAR
+========================*/
+
+/*DROPDOWN IN CAT*/
+.navbarDD, .dropbtnDD {
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Courier New";}
+
+.navbarDD a {
+  color: white; text-align: center; font-size: 16px; text-decoration: none;
+  padding: 14px 16px; float: left;}
+
+/*.dropdownDD {overflow: hidden;}*/
+
+.dropdownDD .dropbtnDD {
+  border: none; outline: none;
+  color: white; font-size: 16px; font-family: inherit;
+  padding: 14px 16px; margin: 0;
+  background-color: inherit;  }
+
+/*CATEGORY HOVER COLOR*/
+.navbarDD a:hover                       {background-color: grey;}
+.dropdownDD.menuMedia:hover  .dropbtnDD {background-color: #a97c09;}
+.dropdownDD.menuGaming:hover .dropbtnDD {background-color: #840202;}
+.dropdownDD.menuLife:hover   .dropbtnDD {background-color: #4ca40b;}
+.dropdownDD.menuInfo:hover   .dropbtnDD {background-color: #2a8ac8;}
+.dropdownDD.menuEtc:hover    .dropbtnDD {background-color: #620fa9;}
+
+/*DROPDOWN CONTENT BACKGROUNDS*/
+.dropdownDD.menuMedia  > div.dropdown-contentDD {background-color: #4e3800; background-image: url('resBackgrounds/bgmedia.png');}
+.dropdownDD.menuGaming > div.dropdown-contentDD {background-color: #410000; background-image: url('resBackgrounds/bggaming.png');}
+.dropdownDD.menuLife   > div.dropdown-contentDD {background-color: #1a3e00;background-image: url('resBackgrounds/bglifestyle.png');}
+.dropdownDD.menuInfo   > div.dropdown-contentDD {background-color: #00273e;background-image: url('resBackgrounds/bginfo.png');}
+.dropdownDD.menuEtc    > div.dropdown-contentDD {background-color: #21003d;background-image: url('resBackgrounds/bgetc.png');}
+
+.dropdown-contentDD {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentDD a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*HOVER HIGHLIGHT LIST CONTENT*/
+.dropdownDD.menuMedia  > .dropdown-contentDD a:hover {background-color: rgba(125, 99, 0, 0.6);}
+.dropdownDD.menuGaming > .dropdown-contentDD a:hover {background-color: rgba(125, 0, 22, 0.6);}
+.dropdownDD.menuLife   > .dropdown-contentDD a:hover {background-color: rgba(94, 125, 0, 0.6);}
+.dropdownDD.menuInfo   > .dropdown-contentDD a:hover {background-color: rgba(0, 91, 125, 0.6);}
+.dropdownDD.menuEtc    > .dropdown-contentDD a:hover {background-color: rgba(46, 0, 125, 0.6);}
+
+.dropdownDD:hover .dropdown-contentDD {display: block;}
+
+
+.footerCopyright {
+  font-family: "Courier New", monospace;
+  text-align: center;
+}
+
+/*///// NAVBAR CAT //////////////////////*/
+.cnavNEW{
+  background-color: #222222;}
+/*
+.cnavNEW a {
+  font-family:  "Verdana", sans-serif;}
+.cnavNEW a:hover {}
+.cnavNEW a.active {}
+*/
+
+/*//// RESPONSIVE /////////*/
+
+
+/*TO DO: DON'T HIDE OVERFLOW
+CENTER NAVBAR
+*/
+
+
+/*ALIGN LEFT WHILE ZOOMED IN*/
+@media screen and (min-width: 700px){
+.dropdownDD {float: left;}
+}
+
+/*HIDE ICON*/
+.cnavNEW .iconNEW {
+  display: none;}
+
+/*HIDE NAVBAR LINKS, SHOW ICON*/
+@media screen and (max-width: 700px) {
+  /*FIGURE OUT HOW TO NOT HIDE CHILDREN!!!!!!! just hide?*/
+/*  .cnavNEW a:not(:first-child) {display: none;}*/
+  .homelinkinnav {display:contents;}
+  .cnavNEW button {display: none;}/**/
+  .cnavNEW a.iconNEW {
+    float: right;
+    display: block;}}
+
+@media screen and (max-width: 700px) {
+  /*EXTEND EXPANDED LINKS TO PAGE WIDTH
+    /*A TAG LINK*/
+  .cnavNEW.responsiveNEW {position: relative;}
+    /*BUTTON LINK*/
+  .cnavNEW.responsiveNEW > div > button {position: relative; background-color: #333;min-width:70vw;}
+  /*ICON POSITION WHILE EXPANDED*/
+  .cnavNEW.responsiveNEW .iconNEW {
+      position: absolute;
+      right: 0; top: 0;}
+  /*EXPANDED LINK DISPLAY, DISPLAY VERTICALLY*/
+  .cnavNEW.responsiveNEW button {
+      float: none;
+      display: block;
+      text-align: left;}
+  
+  .cnavNEW.responsiveNEW a {}
+  /*INSERT ARROW BEFORE TEXT*/
+  .cnavNEW.responsiveNEW a:before {content:"\21DD \a0";}
+  /*HOME BUTTON ALIGN*/
+  .cnavNEW {text-align: left;}
+}

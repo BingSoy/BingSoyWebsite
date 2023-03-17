@@ -1,0 +1,182 @@
+/*eeeeeeeeeeeeeeeeeee*/
+
+body {background-color: darkgrey;}
+
+.menucom.menu  > div > a:hover{color: #ffd200;}
+.menucom.menu  > div > a.catCol_games:hover{color: #ffa74b !important;}
+.menucom.menu2 > div > a:hover{color: #ff475b;}
+.menucom.menu3 > div > a:hover{color: #a7ff66;}
+.menucom.menu4 > div > a:hover{color: #61c1ff;}
+.menucom.menu5 > div > a:hover{color: #b863ff;}
+
+.classnamethatcentersthenavbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size:0.8em;
+/*  text-align:center;*/
+  white-space: nowrap;
+}
+
+.menu,
+.menu2,
+.menu3,
+.menu4,
+.menu5
+{
+    position:relative;
+    display:inline-block;
+​   z-index:2; padding:0;
+    margin:0;
+    outline:0;
+    text-align:left;
+}
+
+/* style for the button */
+.menu:before{content: "📺 MULTIMEDIA \a0 \2630";background-color: #715b08;}
+.menu2:before {content: "🎮 GAMING \a0 \2630";background-color: #69121b;}
+.menu3:before {content: "🎑 LIFESTYLE \a0 \2630";background-color: #2a4605;}
+.menu4:before {content: "ℹ️ INFORMATION \a0 \2630";background-color: #083244;}
+.menu5:before {content: "🍔 ETCETERA \a0 \2630";background-color: #220845;}
+
+.menucom:before
+{color:white; padding: 5px 10px;}
+
+.menu:focus,
+.menu2:focus,
+.menu3:focus,
+.menu4:focus,
+.menu5:focus
+{pointer-events:none;}
+
+/* If :focus detected the dropdown menu is displayed by making it visible */
+.menu:focus .menu-dropdown,
+.menu2:focus .menu-dropdown2,
+.menu3:focus .menu-dropdown3,
+.menu4:focus .menu-dropdown4,
+.menu5:focus .menu-dropdown5
+{opacity:1; visibility:visible; }
+
+/* style for the dropdown box */
+.menu-dropdown,
+.menu-dropdown2,
+.menu-dropdown3,
+.menu-dropdown4,
+.menu-dropdown5
+{
+  background-color: #364656;
+  width: auto; margin:3px 0 0 0;
+  padding: 10px; pointer-events: auto;
+  position: absolute;
+  z-index: 1; opacity: 0;
+  visibility: hidden; transition: visibility 0.1s;}
+
+.menu-dropdown  {background-image: url('bgtest.png');}
+.menu-dropdown2 {background-image: url('bghitman.png');}
+.menu-dropdown3 {background-image: url('bgtest.png');}
+.menu-dropdown4 {background-image: url('bghitman.png');}
+.menu-dropdown5 {background-image: url('bgtest.png');}
+
+/* style the links in the dropdown */
+.menu-dropdown a,
+.menu-dropdown2 a,
+.menu-dropdown3 a,
+.menu-dropdown4 a,
+.menu-dropdown5 a
+{
+    background:transparent;
+    border:none;
+    outline:0;
+    display:block;
+    color:white;
+    text-decoration:none;
+    width:160px;
+    padding:5px;
+}
+/**/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar {
+  font-size: 18px;
+  background-image: url('bgtest.png');
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 986px) {
+  .navbar {
+    display: flex;
+    /*RIGHT ALIGN STOP THIS*/
+    /*justify-content: space-between;*/
+    justify-content: center;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;}
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;}
+
+  .main-nav li {margin: 0;}
+
+  .nav-links {margin-left: 40px;}
+
+  .logo {margin-top: 0;}
+
+  .navbar-toggle {display: none;}
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
