@@ -20,6 +20,10 @@ class Div2 extends HTMLElement {
     <i>Modders try to save HITMAN 🦚</i>&nbsp;<i class="fas fa-external-link-alt"></i>
   </a>
 
+  <a class="" href="https://youtu.be/aj51Np8oAG4" target="_blank" title="THE TAPE">
+    <i>🍝</i>&nbsp;<i class="fas fa-external-link-alt"></i>
+  </a>
+
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
