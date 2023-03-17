@@ -12,3 +12,6 @@ RewriteRule ^ %{REQUEST_URI}.html?rw=1 [L,QSA]
 RewriteCond %{REQUEST_URI} \.html$
 RewriteCond %{QUERY_STRING} !rw=1 [NC]
 RewriteRule ^ - [R=404]
+
+# 404 page
+ErrorDocument 404 /404.html
