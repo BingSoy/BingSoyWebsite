@@ -22,7 +22,7 @@ img.noalias {
 /*DROPDOWN IN CAT*/
 /*.navbarDD, .dropbtnDD {*/
 .navbarDD {
-  /*THIS HIDES OVERFLOW!!!!!! BUT ALSO MAKES ICON APPEAR PROPERLY!!!!!!*/
+  /*THIS HIDES OVERFLOW!!!!!! BUT ALSO MAKES ICON APPEAR PROPERLY!!!!!! SCUFFED!!!!!!!*/
 /*  overflow: hidden;*/
   background-color: #333;
   font-family: "Courier New";}
