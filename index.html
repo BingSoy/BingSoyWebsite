@@ -36,14 +36,30 @@
         <br />
       
       <div class="centertxt">
-      <div style="position:relative;display:inline-block;">
-         <img src="resImages/bsmugshot4.png" alt="Bing Soy">
-         <img src="resImages/bsmugshot4_crown.png" alt="Bing Soy"
-              style="position:absolute;left: -20px;top: -40px;"
-              class="floatcrown">
+        <div style="position:relative;display:inline-block;">
+           <img src="resImages/bsmugshot4.png" alt="Bing Soy" class="look">
+           <a href="https://www.youtube.com/playlist?list=PLXhfRoiJBIiuXOUv_7EJ1i7UKj0aGfy0U" 
+            target="_blank" class="floatcrown" style="position:absolute;left: -20px;top: -40px;"
+            id="dbclLink">
+             <img src="resImages/bsmugshot4_crown.png" alt="Bing Soy"
+                class="look2">
+            </a>
+        </div>
       </div>
-        
-      </div>
+      <script>
+         var clicked=false;
+          var el = document.getElementById('dbclLink');
+          var maxClicksDelay = 250; // in milliseconds 
+          el.onclick = function(e) {
+            if(!clicked) {
+            clicked = true;
+            setTimeout(function() { clicked = false}, maxClicksDelay );  
+            e.preventDefault();
+            }
+
+          }
+      </script>
+      
         <br />
         <br />
     </div>

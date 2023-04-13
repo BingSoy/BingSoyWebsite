@@ -83,6 +83,7 @@ h4#subtitle{
   border-bottom: 1px dotted;
 }
 
+/*image to right in div*/
 .d1 {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -90,6 +91,17 @@ h4#subtitle{
 }
 .d1 img {
   max-width: 100%;
+}
+/*//////////////////////*/
+article {
+  position: relative;
+  display: block;
+}
+article:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  z-index: 1;
 }
 /*///////////////////// CLASS ///////////////////////////////*/
 .text {
@@ -230,8 +242,6 @@ a.btn:active {
 }
 .qwf{
  display: inline;
-}
-#banana {
 }
 /*/////////// LINKS /////////////////*/
 a:link {/*unvisited link*/
@@ -440,3 +450,50 @@ from {filter: grayscale(100%);}
 @keyframes mymove3 {
 from {transform: translate(2px,5px);}
   to {transform: translate(-2px,-5px);}}
+
+.look:not(:hover){
+      filter:brightness(0%);
+      filter:contrast(0%);
+      filter:brightness(0%);
+}
+
+.look:hover {
+  position: relative;
+  animation: mymove4 0.5s forwards;
+  animation-direction:normal;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;}
+  
+@keyframes mymove4 {
+  from {
+      filter:brightness(0%);
+      filter:contrast(0%);
+      filter:brightness(0%);}
+    to {
+      filter:brightness(100%);
+      filter:contrast(100%);
+      filter:brightness(100%);}
+}
+/**/
+.look2:not(:hover){
+      filter:brightness(0%);
+      filter:contrast(0%);
+      filter:brightness(0%);
+}
+
+.look2:hover {
+  animation: mymove42 0.5s forwards;
+  animation-direction:normal;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;}
+  
+@keyframes mymove42 {
+  from {
+      filter:brightness(0%);
+      filter:contrast(0%);
+      filter:brightness(0%);}
+    to {
+      filter:brightness(100%);
+      filter:contrast(100%);
+      filter:brightness(100%);}
+    }
