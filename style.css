@@ -17,8 +17,19 @@ body, footer {
 footer {
   text-align: center;background-image: url('');}
 ul {
-  margin-left:7%;
-  font-family: "Calibri";}
+  margin-left:5%;
+  margin-bottom:1%;
+  font-family: "Calibri";
+  list-style-type: "\2693";
+  text-indent: 5px;
+}
+ul ul{
+  margin-top:1%;
+  margin-bottom:2%;
+  margin-left:2%;
+  list-style-type: "\26D3";
+  
+}
 p {
   font-family: "Calibri";}
 tr:nth-child(even) {
@@ -32,15 +43,18 @@ h1 {
 h2 {
   color: white;
   font-family:  "Arial Black", sans-serif;
+  font-size:28px;
   margin: auto;}
 h3 {
   color: white;
-  font-family:  "Arial Black", sans-serif;
+  font-family:  "Trebuchet MS", sans-serif;
+  font-size:24px;
   margin: auto;}
 h4 {
   color: white;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Trebuchet MS', serif;
   font-size:20px;
+  font-style: italic;
   margin: auto;}
 h5 {
   color: white;
@@ -67,6 +81,15 @@ h4#subtitle{
 }
 .dotline {
   border-bottom: 1px dotted;
+}
+
+.d1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0.5em;
+}
+.d1 img {
+  max-width: 100%;
 }
 /*///////////////////// CLASS ///////////////////////////////*/
 .text {
@@ -396,14 +419,24 @@ ul.nav > li:hover {
   position: relative;
   animation: mymove 20s infinite;
   animation-timing-function: linear;}
+@keyframes mymove {
+from {filter: hue-rotate(0deg);}
+  to {filter: hue-rotate(360deg);}}
+
 .greyscale {
   position: relative;
   animation: mymove2 4.7s infinite;
   animation-direction: alternate;
   animation-timing-function:cubic-bezier(1, 0.1, 0.5, 1);}
-@keyframes mymove {
-from {filter: hue-rotate(0deg);}
-  to {filter: hue-rotate(360deg);}}
 @keyframes mymove2 {
 from {filter: grayscale(100%);}
   to {filter: grayscale(0%);}}
+
+.floatcrown {
+  position: relative;
+  animation: mymove3 3s infinite;
+  animation-direction: alternate;
+  animation-timing-function:ease-in-out;}
+@keyframes mymove3 {
+from {transform: translate(2px,5px);}
+  to {transform: translate(-2px,-5px);}}
