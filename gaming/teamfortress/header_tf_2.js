@@ -17,7 +17,7 @@ T
     Strategy&nbsp;<i class="fas fa-external-link-alt"></i></a>
   <a class="thanks" href="thanks">Thanks</a>
   <a class="tribute" href="tribute">Tribute</a>
-  <a class="timeline" href="timeline">Timeline</a>
+  <!--<a class="timeline" href="timeline">Timeline</a>-->
   <a class="scoring" href="scoring">Scoring</a>
   <a class="faq" href="faq">FAQ</a>
   <a class="" href="https://gamebanana.com/members/2048161" target="_blank">
