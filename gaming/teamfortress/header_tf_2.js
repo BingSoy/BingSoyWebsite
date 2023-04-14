@@ -9,8 +9,12 @@ T
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-<a class="verify" href="verify">
+  <a class="verify" href="verify">
     Verify (Official)
+  </a>
+  <a href="https://steamcommunity.com/groups/bingsoy" target="_blank">
+    Steam&nbsp;Group
+    <i class="fas fa-external-link-alt"></i>
   </a>
   <a class="fixgame" href="fixgame">Fix Game</a>
   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2868711419" target="_blank">
@@ -23,7 +27,7 @@ T
   <a class="" href="https://gamebanana.com/members/2048161" target="_blank">
     <i>GameBanana</i>&nbsp;<i class="fas fa-external-link-alt"></i>
   </a>
-<a href="https://bingsoyteamfortress.blogspot.com/" target="_blank">
+  <a href="https://bingsoyteamfortress.blogspot.com/" target="_blank">
     Blog&nbsp;
     <i class="fas fa-external-link-alt"></i>
   </a>
