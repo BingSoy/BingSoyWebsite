@@ -16,8 +16,8 @@ class Div extends HTMLElement {
         Art&nbsp;🎨</a>
       <a href="https://www.youtube.com/@BingSoyAnimations" target="_blank">
         Animations&nbsp;🏃‍&nbsp;<sup><i class="fas fa-external-link-alt"></i></sup></a>
-      <a href="https://www.youtube.com/@BingSoyEdits" target="_blank">
-        Edits&nbsp;🎞️&nbsp;<sup><i class="fas fa-external-link-alt"></i></sup></a>
+      <a href="https://bingsoy.com/media/edits" target="_blank">
+        Edits&nbsp;✂️</a>
       <a href="https://bingsoy.com/media/games" class="catCol_games">
         Games&nbsp;👾</a>
       <a href="https://bingsoy.bandcamp.com/" target="_blank">
