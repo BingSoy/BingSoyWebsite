@@ -95,6 +95,14 @@ ul > details > summary {
   /*padding: 0vh 2.5vw;*/}
 p, h2, h3, h4, h5, ul, span > details {
   padding: 0vh 2.5vw;
+
+}
+p {
+  padding-bottom: 0.5rem;
+}
+
+h2, h3, h4, h5 {
+  padding-bottom: 0.8rem;
 }
 /*/////////////////////// HEADINGS //////////////////////////////*/
 h1 {
@@ -110,7 +118,7 @@ h2 {
   font-weight: 1;
     font-size:24px;}
 h3 {
-  color: white;
+/*  color: white;*/
   font-family:  "Arial Black", sans-serif;
   margin: auto;}
 table, th, td {
@@ -203,17 +211,68 @@ text-decoration: none;
 }
 
 /*///////////////////// CLASS ///////////////////////////////*/
+
+.boxinnershadow {
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+/*  width: 75%;*/
+}
+
+.boxinnershadow::after {
+  -webkit-box-shadow: inset 0 0 10px 10px #000;
+  -moz-box-shadow: inset 0 0 10px 10px #000;
+  box-shadow: inset 0 0 10px 10px #000;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+/*  height: 100%;*/
+  position: absolute;
+  right: 0;
+  top: 0;
+/*  width: 100%;*/
+}
+
+.boxinnershadow img {
+  max-width: 100%;
+  width: auto;
+}
+
+
+/*
+.boxinnershadowP {
+    position: relative;
+    z-index: 0;
+}
+.boxinnershadow {
+    box-shadow: 0 0 10px 6px black inset;
+}
+.boxinnershadow img {
+    display: block;
+    position: relative;
+    z-index: -1;
+}*/
+
+ul.listPos {
+  list-style-type: "+ ";
+}
+
+ul.listNeg {
+  list-style-type: "- ";
+}
+
+
 ul.tltp > li {
   
-        border-left: 5px solid #99CCFF;
-        list-style-type: none;
-        padding: 2px 5px;
+  border-left: 5px solid #99CCFF;
+  list-style-type: none;
+  padding: 2px 5px;
   
 }
 .tltp2 {
   
-        border-left: 5px dotted #FF4040 !important;
-  
+    border-left: 5px dotted #FF4040 !important;
 }
 /*itemtooltipthing*/
 .iattYe {

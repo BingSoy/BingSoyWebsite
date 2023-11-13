@@ -58,8 +58,8 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('/images/placeholder.png')";
-  var audio = new Audio('/audio/scrybeofthemagicksedited-originalbyjonahsenzel.mp3');
+  document.body.style.backgroundImage = "url('../../resImages/placeholder.png')";
+  var audio = new Audio('../../resAudio/scrybeofthemagicksedited-originalbyjonahsenzel.mp3');
   audio.play();
 }
 
