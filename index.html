@@ -31,11 +31,12 @@
     <!--  GLOBAL MESSAGE?-->
   
     <div class="bodydiv">
-      <h1 id="titlename" class="centertxt">Bing Soy</h1>
-      <h4 id="subtitle" class="centertxt">Internet Television</h4>
+      <h1 id="titlename" class="centertxt">Bing Soy's Website</h1>
+      <h4 id="subtitle" class="centertxt">Welcome</h4>
         <br />
         <br />
       
+<!--
       <div class="centertxt">
         <div style="position:relative;display:inline-block;">
            <img src="resImages/bsmugshot4.png" alt="Bing Soy" class="look">
@@ -47,6 +48,8 @@
             </a>
         </div>
       </div>
+-->
+<!--
       <script>
          var clicked=false;
           var el = document.getElementById('dbclLink');
@@ -60,6 +63,25 @@
 
           }
       </script>
+-->
+      
+<script type="text/javascript">
+var textarray = [
+'<img src="resImages/bsmugshot.png" alt="Bing Soy">',
+'<img src="resImages/bsmugshot2.png" alt="Bing Soy">',
+'<img src="resImages/bsmugshot3.png" alt="Bing Soy">',
+'<div style="position:relative;display:inline-block;"> <img src="resImages/bsmugshot4.png" alt="Bing Soy" class="look"> <a href="https://www.youtube.com/playlist?list=PLXhfRoiJBIiuXOUv_7EJ1i7UKj0aGfy0U" target="_blank" class="floatcrown" style="position:absolute;left: -20px;top: -40px;" id="dbclLink"> <img src="resImages/bsmugshot4_crown.png" alt="Bing Soy" class="look2"> </a></div>',
+'<a href="https://www.youtube.com/watch?v=nbiZNn08qDg" target="_blank"><img src="resImages/bsmugshot5.jpg" alt="Bing Soy" width="300px"></a>',
+'<a href="https://www.youtube.com/watch?v=R1MBI2tSHe0" target="_blank"><img src="resImages/bsmugshot6.png" alt="Bing Soy" width="260px" class="pixelated"></a>'
+];
+
+function RndText() {
+  var rannum= Math.floor(Math.random()*textarray.length);
+  document.getElementById('ShowText').innerHTML=textarray[rannum];
+}
+onload = function() { RndText(); }
+</script>
+<div id="ShowText" class="centertxt subtitle"></div>
       
         <br />
         <br />

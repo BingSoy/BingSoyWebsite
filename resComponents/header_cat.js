@@ -29,8 +29,8 @@ class Div extends HTMLElement {
     <button class="dropbtnDD">GAMING&nbsp;<i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-contentDD">
-            <a href="https://www.youtube.com/@BingSoyBindingOfIsaac">
-              Binding of Isaac&nbsp;<sup><i class="fas fa-external-link-alt"></i></sup></a>
+            <a href="https://www.youtube.com/@BingSoyRoguelike">
+              Roguelike&nbsp;<sup><i class="fas fa-external-link-alt"></i></sup></a>
             <a href="https://bingsoy.com/gaming/hitman">
               HITMAN</a>
             <a href="https://www.youtube.com/@BingSoyMinecraft">
@@ -40,7 +40,7 @@ class Div extends HTMLElement {
             <a href="https://www.youtube.com/@BingSoyRhythm">
               Rhythm&nbsp;<sup><i class="fas fa-external-link-alt"></i></sup></a>
             <a href="https://bingsoy.com/gaming/teamfortress">
-              Team Fortress</a>
+              ⭐ Team Fortress</a>
     </div>
   </div>
   

@@ -156,3 +156,7 @@ CENTER NAVBAR
   /*HOME BUTTON ALIGN*/
   .cnavNEW {text-align: left;}
 }
+
+.pixelated {
+  image-rendering: pixelated;
+}
