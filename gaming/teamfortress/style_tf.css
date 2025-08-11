@@ -334,7 +334,8 @@ li > span.orig {
 .mods a.mods,
 .scoring a.scoring,
 .faq a.faq,
-.verify a.verify
+.verify a.verify,
+.servers a.servers
 {
   background-color: #b79d0a;
   color: white;}
