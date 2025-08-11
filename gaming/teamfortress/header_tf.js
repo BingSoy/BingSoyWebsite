@@ -9,13 +9,20 @@ class Header extends HTMLElement {
   <a class="index" href="https://bingsoy.com/gaming/teamfortress/">Home</a>
   <a class="about" href="about">About</a>
   <a class="mods" href="mods">Mods</a>
-  <a href="https://www.youtube.com/@BingSoyTeamFortress" target="blank">YouTube&nbsp;<i class="fas fa-external-link-alt"></i></a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+  <a href="https://www.youtube.com/@BingSoyTeamFortress" target="blank">
+    <i class="fab fa-youtube"></i>&nbspTF&nbspChannel&nbsp;
+    <i class="fas fa-external-link-alt"></i>
   </a>
   <a href="https://www.youtube.com/@BingSoyTeamFortressSecondary" target="blank">
-    YT 2nd&nbsp;
+    <i class="fab fa-youtube"></i>&nbsp#2&nbsp;
     <i class="fas fa-external-link-alt"></i>
+  </a>
+  <a href="https://www.youtube.com/@BingSoyTeamFortressMelee" target="blank">
+    <i class="fab fa-youtube"></i>&nbsp#3&nbsp;
+    <i class="fas fa-external-link-alt"></i>
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
   </a>
  </div>
     `;
